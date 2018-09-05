@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "b41f914d1ecc2399ceb68faa5606bae2"
+build_time: [1536094946, 39536000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/Exports.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/FormDataDecoder.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/FormDataEncoder.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartError.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartParser.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartPart.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartPartConvertible.swift": [1536068669, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/multipart.git-4210556629793786970/Sources/Multipart/MultipartSerializer.swift": [1536068669, 0]

@@ -1,0 +1,4 @@
+framework module TILAppPackageDescription {
+    header "TILAppPackageDescription-Swift.h"
+    requires objc
+}

@@ -1,0 +1,131 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Fluent13SchemaBuilderP", ""]
+- ["6Fluent13SchemaBuilderP", "field"]
+- ["6Fluent13SchemaBuilderP", "field"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "Array"
+- !private "FloatLiteralType"
+- !private "FluentProperty"
+- "FluentSQLSchema"
+- !private "IntegerLiteralType"
+- "KeyPath"
+- "SchemaBuilder"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "identifier"]
+- !private ["s26ExpressibleByStringLiteralP", "identifier"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "identifier"]
+- !private ["6Fluent0A8PropertyV", "keyPath"]
+- !private ["6Fluent0A8PropertyV", "path"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["3SQL19SQLColumnConstraintP", "notNull"]
+- !private ["3SQL19SQLColumnDefinitionP", "columnDefinition"]
+- !private ["3SQL19SQLColumnIdentifierP", "column"]
+- !private ["3SQL13SQLIdentifierP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "column"]
+- !private ["3SQL15SQLSerializableP", "columnDefinition"]
+- !private ["3SQL15SQLSerializableP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "notNull"]
+- !private ["6Fluent13SchemaBuilderP", "FluentProperty"]
+- ["6Fluent13SchemaBuilderP", "FluentSQLSchema"]
+- ["6Fluent13SchemaBuilderP", "KeyPath"]
+- ["6Fluent13SchemaBuilderP", "Model"]
+- ["6Fluent13SchemaBuilderP", "field"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Fluent0A8PropertyV"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s17MutableCollectionP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL19SQLColumnConstraintP"
+- !private "3SQL19SQLColumnDefinitionP"
+- !private "3SQL19SQLColumnIdentifierP"
+- !private "3SQL13SQLIdentifierP"
+- !private "3SQL15SQLSerializableP"
+- "6Fluent13SchemaBuilderP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/SQL.framework/Modules/SQL.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Async.framework/Modules/Async.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Command.framework/Modules/Command.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Service.framework/Modules/Service.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Console.framework/Modules/Console.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Core.framework/Modules/Core.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Logging.framework/Modules/Logging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Debugging.framework/Modules/Debugging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Bits.framework/Modules/Bits.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Fluent.framework/Modules/Fluent.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "dd91132f2931b754bf7a50e2cfa279af"

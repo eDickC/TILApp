@@ -1,0 +1,4 @@
+framework module Service {
+    header "Service-Swift.h"
+    requires objc
+}

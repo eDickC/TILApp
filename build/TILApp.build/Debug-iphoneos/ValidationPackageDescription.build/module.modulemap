@@ -1,0 +1,4 @@
+framework module ValidationPackageDescription {
+    header "ValidationPackageDescription-Swift.h"
+    requires objc
+}

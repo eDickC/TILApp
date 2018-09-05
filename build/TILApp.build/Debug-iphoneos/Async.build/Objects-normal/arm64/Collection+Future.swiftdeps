@@ -1,0 +1,66 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["s10CollectionP", ""]
+- ["s10CollectionP", "map"]
+- ["s10CollectionP", "flatMap"]
+- ["s10CollectionP", "map"]
+- ["s10CollectionP", "flatMap"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Collection"
+- "Future"
+- "FutureType"
+- "Void"
+- "Worker"
+depends-member:
+- ["s10CollectionP", "Element"]
+- ["s10CollectionP", "Future"]
+- ["s10CollectionP", "FutureType"]
+- ["s10CollectionP", "Void"]
+- ["s10CollectionP", "Worker"]
+- ["s10CollectionP", "flatMap"]
+- !private ["s10CollectionP", "flatten"]
+- ["s10CollectionP", "map"]
+- !private ["s9EquatableP", "flatMap"]
+- !private ["s9EquatableP", "map"]
+- !private ["3NIO15EventLoopFutureC", "deinit"]
+- !private ["3NIO15EventLoopFutureC", "flatMap"]
+- !private ["3NIO15EventLoopFutureC", "map"]
+- !private ["5Async10FutureTypeP", "flatMap"]
+- !private ["5Async10FutureTypeP", "map"]
+- ["s8SequenceP", "Element"]
+- ["s8SequenceP", "Future"]
+- ["s8SequenceP", "FutureType"]
+- ["s8SequenceP", "Void"]
+- ["s8SequenceP", "Worker"]
+- !private ["s8SequenceP", "flatten"]
+depends-nominal:
+- "s10CollectionP"
+- !private "s9EquatableP"
+- !private "3NIO15EventLoopFutureC"
+- !private "5Async10FutureTypeP"
+- "s8SequenceP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+interface-hash: "4379026eed359e26d7978e8ac067a95f"

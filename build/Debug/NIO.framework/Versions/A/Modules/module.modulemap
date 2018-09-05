@@ -1,0 +1,4 @@
+framework module NIO {
+    header "NIO-Swift.h"
+    requires objc
+}

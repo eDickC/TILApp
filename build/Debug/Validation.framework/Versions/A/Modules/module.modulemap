@@ -1,0 +1,4 @@
+framework module Validation {
+    header "Validation-Swift.h"
+    requires objc
+}

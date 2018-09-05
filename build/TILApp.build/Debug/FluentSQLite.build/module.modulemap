@@ -1,0 +1,4 @@
+framework module FluentSQLite {
+    header "FluentSQLite-Swift.h"
+    requires objc
+}

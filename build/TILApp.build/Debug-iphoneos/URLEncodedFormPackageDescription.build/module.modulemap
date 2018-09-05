@@ -1,0 +1,4 @@
+framework module URLEncodedFormPackageDescription {
+    header "URLEncodedFormPackageDescription-Swift.h"
+    requires objc
+}

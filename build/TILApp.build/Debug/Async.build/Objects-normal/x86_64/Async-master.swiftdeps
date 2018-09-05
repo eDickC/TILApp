@@ -1,0 +1,19 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "ad746da3d587cfaa3bad0bb192088256"
+build_time: [1536094939, 564188000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Async+NIO.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/AsyncError.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Collection+Future.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Deprecated.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Exports.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+DoCatch.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Flatten.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Global.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Map.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Transform.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Variadic.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Future+Void.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/FutureType.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/QueueHandler.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/Async/Worker.swift": [1536068667, 0]

@@ -1,0 +1,4 @@
+framework module NIOConcurrencyHelpers {
+    header "NIOConcurrencyHelpers-Swift.h"
+    requires objc
+}

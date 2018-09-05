@@ -1,0 +1,117 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLCreateTableBuilder"
+provides-nominal:
+- "3SQL21SQLCreateTableBuilderC"
+provides-member:
+- ["3SQL21SQLCreateTableBuilderC", ""]
+- ["11DatabaseKit0A9QueryableP", ""]
+- ["11DatabaseKit0A9QueryableP", "create"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "DatabaseQueryable"
+- "SQLColumnBuilder"
+- "SQLConnection"
+- "SQLCreateTableBuilder"
+- "SQLQuery"
+- "SQLQueryBuilder"
+- "SQLTable"
+depends-member:
+- ["11DatabaseKit0A9QueryableP", "Query"]
+- ["11DatabaseKit0A9QueryableP", "SQLCreateTableBuilder"]
+- ["11DatabaseKit0A9QueryableP", "SQLQuery"]
+- ["11DatabaseKit0A9QueryableP", "SQLTable"]
+- ["11DatabaseKit0A9QueryableP", "Self"]
+- ["11DatabaseKit0A9QueryableP", "create"]
+- ["3SQL16SQLColumnBuilderP", "ColumnDefinition"]
+- ["3SQL16SQLColumnBuilderP", "Connection"]
+- ["3SQL16SQLColumnBuilderP", ""]
+- ["3SQL16SQLColumnBuilderP", "_Default_Connection"]
+- ["3SQL16SQLColumnBuilderP", "columns"]
+- ["3SQL16SQLColumnBuilderP", "connection"]
+- !private ["3SQL16SQLColumnBuilderP", "createTable"]
+- !private ["3SQL16SQLColumnBuilderP", "init"]
+- ["3SQL16SQLColumnBuilderP", "query"]
+- ["3SQL13SQLConnectionP", "Query"]
+- ["3SQL14SQLCreateTableP", "ColumnDefinition"]
+- !private ["3SQL14SQLCreateTableP", "columns"]
+- !private ["3SQL14SQLCreateTableP", "createTable"]
+- !private ["3SQL14SQLCreateTableP", "ifNotExists"]
+- !private ["3SQL14SQLCreateTableP", "temporary"]
+- ["3SQL21SQLCreateTableBuilderC", "ColumnDefinition"]
+- ["3SQL21SQLCreateTableBuilderC", "Connection"]
+- ["3SQL21SQLCreateTableBuilderC", "_Default_Connection"]
+- ["3SQL21SQLCreateTableBuilderC", "columns"]
+- ["3SQL21SQLCreateTableBuilderC", "connection"]
+- ["3SQL21SQLCreateTableBuilderC", "createTable"]
+- ["3SQL21SQLCreateTableBuilderC", "deinit"]
+- ["3SQL21SQLCreateTableBuilderC", "ifNotExists"]
+- ["3SQL21SQLCreateTableBuilderC", "init"]
+- ["3SQL21SQLCreateTableBuilderC", "query"]
+- ["3SQL21SQLCreateTableBuilderC", "temporary"]
+- ["3SQL8SQLQueryP", "CreateTable"]
+- !private ["3SQL8SQLQueryP", "createTable"]
+- ["3SQL15SQLQueryBuilderP", "ColumnDefinition"]
+- ["3SQL15SQLQueryBuilderP", "Connection"]
+- ["3SQL15SQLQueryBuilderP", ""]
+- ["3SQL15SQLQueryBuilderP", "_Default_Connection"]
+- ["3SQL15SQLQueryBuilderP", "columns"]
+- ["3SQL15SQLQueryBuilderP", "connection"]
+- !private ["3SQL15SQLQueryBuilderP", "createTable"]
+- !private ["3SQL15SQLQueryBuilderP", "init"]
+- ["3SQL15SQLQueryBuilderP", "query"]
+- ["3SQL15SQLSerializableP", "ColumnDefinition"]
+- ["3SQL15SQLSerializableP", "CreateTable"]
+- !private ["3SQL15SQLSerializableP", "columns"]
+- !private ["3SQL15SQLSerializableP", "createTable"]
+- !private ["3SQL15SQLSerializableP", "ifNotExists"]
+- !private ["3SQL15SQLSerializableP", "table"]
+- !private ["3SQL15SQLSerializableP", "temporary"]
+- !private ["3SQL18SQLTableIdentifierP", "table"]
+depends-nominal:
+- "11DatabaseKit0A9QueryableP"
+- "3SQL16SQLColumnBuilderP"
+- "3SQL13SQLConnectionP"
+- "3SQL14SQLCreateTableP"
+- "3SQL21SQLCreateTableBuilderC"
+- "3SQL8SQLQueryP"
+- "3SQL15SQLQueryBuilderP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Async.framework/Modules/Async.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Service.framework/Modules/Service.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Core.framework/Modules/Core.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Debugging.framework/Modules/Debugging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Bits.framework/Modules/Bits.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "39600c9d0ec600c2c55bf6f31520c8cb"

@@ -1,0 +1,4 @@
+framework module COperatingSystem {
+    header "COperatingSystem-Swift.h"
+    requires objc
+}

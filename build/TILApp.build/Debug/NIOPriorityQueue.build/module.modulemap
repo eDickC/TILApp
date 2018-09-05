@@ -1,0 +1,4 @@
+framework module NIOPriorityQueue {
+    header "NIOPriorityQueue-Swift.h"
+    requires objc
+}

@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "aa338448c560293a45b7a1ae79da78b5"
+build_time: [1536094575, 510605000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/Sources/App/Models/Acronym.swift": [1536082609, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/Sources/App/app.swift": [1536068528, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/Sources/App/boot.swift": [1536068528, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/Sources/App/configure.swift": [1536082609, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/Sources/App/routes.swift": [1536082609, 0]

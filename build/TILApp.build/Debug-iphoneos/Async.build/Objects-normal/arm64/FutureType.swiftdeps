@@ -1,0 +1,73 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FutureResultCallback"
+- "FutureType"
+- "FutureResult"
+provides-nominal:
+- "5Async10FutureTypeP"
+- "3NIO15EventLoopFutureC"
+- "5Async12FutureResultO"
+provides-member:
+- ["5Async10FutureTypeP", ""]
+- ["3NIO15EventLoopFutureC", ""]
+- ["5Async12FutureResultO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Error"
+- "EventLoopFuture"
+- "FutureResult"
+- "FutureResultCallback"
+- "FutureType"
+depends-member:
+- ["s9EquatableP", "Expectation"]
+- ["s9EquatableP", "addAwaiter"]
+- !private ["s9EquatableP", "catch"]
+- !private ["s9EquatableP", "do"]
+- ["3NIO15EventLoopFutureC", "Expectation"]
+- ["3NIO15EventLoopFutureC", "FutureResult"]
+- ["3NIO15EventLoopFutureC", "T"]
+- ["3NIO15EventLoopFutureC", "addAwaiter"]
+- !private ["3NIO15EventLoopFutureC", "catch"]
+- ["3NIO15EventLoopFutureC", "deinit"]
+- !private ["3NIO15EventLoopFutureC", "do"]
+- ["5Async12FutureResultO", "Error"]
+- ["5Async12FutureResultO", "T"]
+- ["5Async12FutureResultO", "error"]
+- ["5Async12FutureResultO", "result"]
+- ["5Async12FutureResultO", "success"]
+- ["5Async12FutureResultO", "unwrap"]
+- ["5Async10FutureTypeP", "Expectation"]
+- ["5Async10FutureTypeP", "FutureResult"]
+- ["5Async10FutureTypeP", "FutureResultCallback"]
+- ["5Async10FutureTypeP", "Result"]
+- ["5Async10FutureTypeP", ""]
+- ["5Async10FutureTypeP", "addAwaiter"]
+- !private ["5Async10FutureTypeP", "catch"]
+- !private ["5Async10FutureTypeP", "do"]
+depends-nominal:
+- "s9EquatableP"
+- "3NIO15EventLoopFutureC"
+- "5Async12FutureResultO"
+- "5Async10FutureTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+interface-hash: "79ca437aba1b694991132fb5928bb2e4"

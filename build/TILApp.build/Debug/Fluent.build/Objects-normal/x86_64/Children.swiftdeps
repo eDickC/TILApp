@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Children"
+provides-nominal:
+- "6Fluent8ChildrenV"
+- "6Fluent8ChildrenV15ParentIDStorageO"
+provides-member:
+- ["6Fluent8ChildrenV", ""]
+- ["6Fluent8ChildrenV15ParentIDStorageO", ""]
+- ["6Fluent5ModelP", ""]
+- ["6Fluent5ModelP", "children"]
+- ["6Fluent5ModelP", "children"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Children"
+- "DatabaseConnectable"
+- "KeyPath"
+- "Model"
+- "QueryBuilder"
+depends-member:
+- ["6Fluent8AnyModelP", "Children"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "KeyPath"]
+- ["6Fluent8AnyModelP", "Self"]
+- !private ["6Fluent8AnyModelP", "query"]
+- !private ["6Fluent8AnyModelP", "requireID"]
+- ["4Core14AnyReflectableP", "Children"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "KeyPath"]
+- ["4Core14AnyReflectableP", "Self"]
+- !private ["4Core14AnyReflectableP", "query"]
+- !private ["4Core14AnyReflectableP", "requireID"]
+- ["6Fluent8ChildrenV", "Child"]
+- ["6Fluent8ChildrenV", "DatabaseConnectable"]
+- ["6Fluent8ChildrenV", "KeyPath"]
+- ["6Fluent8ChildrenV", "Parent"]
+- ["6Fluent8ChildrenV", "ParentIDStorage"]
+- ["6Fluent8ChildrenV", "QueryBuilder"]
+- ["6Fluent8ChildrenV", "init"]
+- ["6Fluent8ChildrenV", "parent"]
+- ["6Fluent8ChildrenV", "parentID"]
+- ["6Fluent8ChildrenV", "query"]
+- ["s9DecodableP", "Children"]
+- ["s9DecodableP", "ID"]
+- ["s9DecodableP", "KeyPath"]
+- ["s9DecodableP", "Self"]
+- !private ["s9DecodableP", "query"]
+- !private ["s9DecodableP", "requireID"]
+- ["s9EncodableP", "Children"]
+- ["s9EncodableP", "ID"]
+- ["s9EncodableP", "KeyPath"]
+- ["s9EncodableP", "Self"]
+- !private ["s9EncodableP", "query"]
+- !private ["s9EncodableP", "requireID"]
+- ["6Fluent5ModelP", "Children"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "KeyPath"]
+- ["6Fluent5ModelP", "Self"]
+- ["6Fluent5ModelP", "children"]
+- !private ["6Fluent5ModelP", "query"]
+- !private ["6Fluent5ModelP", "requireID"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "Child"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "KeyPath"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "Parent"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "optional"]
+- ["6Fluent8ChildrenV15ParentIDStorageO", "required"]
+- !private ["6Fluent12QueryBuilderC", "filter"]
+- ["4Core11ReflectableP", "Children"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "KeyPath"]
+- ["4Core11ReflectableP", "Self"]
+- !private ["4Core11ReflectableP", "query"]
+- !private ["4Core11ReflectableP", "requireID"]
+depends-nominal:
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "6Fluent8ChildrenV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "6Fluent5ModelP"
+- "6Fluent8ChildrenV15ParentIDStorageO"
+- !private "6Fluent12QueryBuilderC"
+- "4Core11ReflectableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Command.framework/Modules/Command.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "113d151209c44ed14cc0e6e4ce1d9efb"

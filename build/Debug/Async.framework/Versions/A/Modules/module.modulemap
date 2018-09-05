@@ -1,0 +1,4 @@
+framework module Async {
+    header "Async-Swift.h"
+    requires objc
+}

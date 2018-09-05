@@ -1,0 +1,4 @@
+framework module ServicePackageDescription {
+    header "ServicePackageDescription-Swift.h"
+    requires objc
+}

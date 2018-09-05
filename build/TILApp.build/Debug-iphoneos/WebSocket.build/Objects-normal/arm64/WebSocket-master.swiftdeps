@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "307e1a47631745d88e15071dd8fe1d0f"
+build_time: [1536068716, 752214000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/Exports.swift": [1536068668, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocket+Client.swift": [1536068668, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocket+Server.swift": [1536068668, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocket.swift": [1536068668, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/websocket.git-995660844808513665/Sources/WebSocket/WebSocketHandler.swift": [1536068668, 0]

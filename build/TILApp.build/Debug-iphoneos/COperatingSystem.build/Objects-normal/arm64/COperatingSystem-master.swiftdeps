@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "066d0f9ec6e2b13da2c1665a57c45d32"
+build_time: [1536068689, 973510000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/core.git-9210800844849382486/Sources/COperatingSystem/libc.swift": [1536068667, 0]

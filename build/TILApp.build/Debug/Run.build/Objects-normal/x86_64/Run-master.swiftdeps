@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "3f0c2af38222933d57b10d11bbecea5f"
+build_time: [1536095700, 929186000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/Sources/Run/main.swift": [1536068528, 0]

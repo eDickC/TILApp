@@ -1,0 +1,4 @@
+framework module WebSocket {
+    header "WebSocket-Swift.h"
+    requires objc
+}

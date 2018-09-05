@@ -1,0 +1,4 @@
+framework module DatabaseKitPackageDescription {
+    header "DatabaseKitPackageDescription-Swift.h"
+    requires objc
+}

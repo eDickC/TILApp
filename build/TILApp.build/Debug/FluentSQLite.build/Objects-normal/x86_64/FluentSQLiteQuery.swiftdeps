@@ -1,0 +1,199 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FluentSQLiteQueryStatement"
+- "FluentSQLiteQuery"
+provides-nominal:
+- "12FluentSQLite0aB14QueryStatementO"
+- "12FluentSQLite0aB5QueryV"
+provides-member:
+- ["12FluentSQLite0aB14QueryStatementO", ""]
+- ["12FluentSQLite0aB5QueryV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- !private "FloatLiteralType"
+- "FluentSQLQuery"
+- "FluentSQLQueryStatement"
+- "FluentSQLiteQuery"
+- "FluentSQLiteQueryStatement"
+- "GenericSQLBinaryOperator"
+- "Int"
+- !private "IntegerLiteralType"
+- "SQLiteExpression"
+- "SQLiteGroupBy"
+- "SQLiteJoin"
+- "SQLiteOrderBy"
+- "SQLiteRowDecoder"
+- "SQLiteSelectExpression"
+- "SQLiteTableIdentifier"
+- "String"
+depends-member:
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_delete"]
+- ["s9EquatableP", "_insert"]
+- !private ["s9EquatableP", "_select"]
+- !private ["s9EquatableP", "_update"]
+- !private ["s9EquatableP", "and"]
+- ["s9EquatableP", "delete"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "insert"]
+- ["s9EquatableP", "isInsert"]
+- ["s9EquatableP", "select"]
+- ["s9EquatableP", "update"]
+- ["9FluentSQL0A8SQLQueryP", "Expression"]
+- ["9FluentSQL0A8SQLQueryP", "GroupBy"]
+- ["9FluentSQL0A8SQLQueryP", "Join"]
+- ["9FluentSQL0A8SQLQueryP", "OrderBy"]
+- ["9FluentSQL0A8SQLQueryP", "SelectExpression"]
+- ["9FluentSQL0A8SQLQueryP", "Statement"]
+- ["9FluentSQL0A8SQLQueryP", "TableIdentifier"]
+- ["9FluentSQL0A8SQLQueryP", ""]
+- ["9FluentSQL0A8SQLQueryP", "defaultBinaryOperator"]
+- ["9FluentSQL0A8SQLQueryP", "groupBy"]
+- !private ["9FluentSQL0A8SQLQueryP", "init"]
+- ["9FluentSQL0A8SQLQueryP", "joins"]
+- ["9FluentSQL0A8SQLQueryP", "keys"]
+- ["9FluentSQL0A8SQLQueryP", "limit"]
+- ["9FluentSQL0A8SQLQueryP", "offset"]
+- ["9FluentSQL0A8SQLQueryP", "orderBy"]
+- ["9FluentSQL0A8SQLQueryP", "predicate"]
+- ["9FluentSQL0A8SQLQueryP", "query"]
+- ["9FluentSQL0A8SQLQueryP", "statement"]
+- ["9FluentSQL0A8SQLQueryP", "table"]
+- ["9FluentSQL0A8SQLQueryP", "values"]
+- ["9FluentSQL0A17SQLQueryStatementP", ""]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "_delete"]
+- ["9FluentSQL0A17SQLQueryStatementP", "_insert"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "_select"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "_update"]
+- ["9FluentSQL0A17SQLQueryStatementP", "delete"]
+- ["9FluentSQL0A17SQLQueryStatementP", "hashValue"]
+- ["9FluentSQL0A17SQLQueryStatementP", "insert"]
+- ["9FluentSQL0A17SQLQueryStatementP", "isInsert"]
+- ["9FluentSQL0A17SQLQueryStatementP", "select"]
+- ["9FluentSQL0A17SQLQueryStatementP", "update"]
+- ["12FluentSQLite0aB5QueryV", "Expression"]
+- ["12FluentSQLite0aB5QueryV", "FluentSQLiteQuery"]
+- ["12FluentSQLite0aB5QueryV", "FluentSQLiteQueryStatement"]
+- ["12FluentSQLite0aB5QueryV", "GenericSQLBinaryOperator"]
+- ["12FluentSQLite0aB5QueryV", "GroupBy"]
+- ["12FluentSQLite0aB5QueryV", "Int"]
+- ["12FluentSQLite0aB5QueryV", "Join"]
+- ["12FluentSQLite0aB5QueryV", "OrderBy"]
+- ["12FluentSQLite0aB5QueryV", "RowDecoder"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteExpression"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteGroupBy"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteJoin"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteOrderBy"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteRowDecoder"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteSelectExpression"]
+- ["12FluentSQLite0aB5QueryV", "SQLiteTableIdentifier"]
+- ["12FluentSQLite0aB5QueryV", "SelectExpression"]
+- ["12FluentSQLite0aB5QueryV", "Statement"]
+- ["12FluentSQLite0aB5QueryV", "String"]
+- ["12FluentSQLite0aB5QueryV", "TableIdentifier"]
+- ["12FluentSQLite0aB5QueryV", "defaultBinaryOperator"]
+- ["12FluentSQLite0aB5QueryV", "deinit"]
+- ["12FluentSQLite0aB5QueryV", "groupBy"]
+- ["12FluentSQLite0aB5QueryV", "init"]
+- ["12FluentSQLite0aB5QueryV", "joins"]
+- ["12FluentSQLite0aB5QueryV", "keys"]
+- ["12FluentSQLite0aB5QueryV", "limit"]
+- ["12FluentSQLite0aB5QueryV", "offset"]
+- ["12FluentSQLite0aB5QueryV", "orderBy"]
+- ["12FluentSQLite0aB5QueryV", "predicate"]
+- ["12FluentSQLite0aB5QueryV", "query"]
+- ["12FluentSQLite0aB5QueryV", "statement"]
+- ["12FluentSQLite0aB5QueryV", "table"]
+- ["12FluentSQLite0aB5QueryV", "values"]
+- ["12FluentSQLite0aB14QueryStatementO", "Bool"]
+- ["12FluentSQLite0aB14QueryStatementO", "FluentSQLiteQueryStatement"]
+- ["12FluentSQLite0aB14QueryStatementO", "__derived_enum_equals"]
+- ["12FluentSQLite0aB14QueryStatementO", "_delete"]
+- ["12FluentSQLite0aB14QueryStatementO", "_insert"]
+- ["12FluentSQLite0aB14QueryStatementO", "_select"]
+- ["12FluentSQLite0aB14QueryStatementO", "_update"]
+- ["12FluentSQLite0aB14QueryStatementO", "deinit"]
+- ["12FluentSQLite0aB14QueryStatementO", "delete"]
+- ["12FluentSQLite0aB14QueryStatementO", "hashValue"]
+- ["12FluentSQLite0aB14QueryStatementO", "insert"]
+- ["12FluentSQLite0aB14QueryStatementO", "isInsert"]
+- ["12FluentSQLite0aB14QueryStatementO", "select"]
+- ["12FluentSQLite0aB14QueryStatementO", "update"]
+- !private ["3SQL24GenericSQLBinaryOperatorO", "and"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_delete"]
+- ["s8HashableP", "_insert"]
+- !private ["s8HashableP", "_select"]
+- !private ["s8HashableP", "_update"]
+- !private ["s8HashableP", "and"]
+- ["s8HashableP", "delete"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "insert"]
+- ["s8HashableP", "isInsert"]
+- ["s8HashableP", "select"]
+- ["s8HashableP", "update"]
+- !private ["3SQL17SQLBinaryOperatorP", "and"]
+- !private ["3SQL15SQLSerializableP", "and"]
+depends-nominal:
+- "s9EquatableP"
+- "9FluentSQL0A8SQLQueryP"
+- "9FluentSQL0A17SQLQueryStatementP"
+- "12FluentSQLite0aB5QueryV"
+- "12FluentSQLite0aB14QueryStatementO"
+- !private "3SQL24GenericSQLBinaryOperatorO"
+- "s8HashableP"
+- !private "3SQL17SQLBinaryOperatorP"
+- !private "3SQL15SQLSerializableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Command.framework/Modules/Command.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bb4597f7fddacce1047b53bc59e7d97d"

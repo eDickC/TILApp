@@ -1,0 +1,707 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["6Fluent15QuerySupportingP", ""]
+- ["6Fluent15QuerySupportingP", "query"]
+- ["6Fluent15QuerySupportingP", "queryEntity"]
+- ["6Fluent15QuerySupportingP", "queryActionCreate"]
+- ["6Fluent15QuerySupportingP", "queryActionRead"]
+- ["6Fluent15QuerySupportingP", "queryActionUpdate"]
+- ["6Fluent15QuerySupportingP", "queryActionDelete"]
+- ["6Fluent15QuerySupportingP", "queryActionIsCreate"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodNotEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodGreaterThan"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodLessThan"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodGreaterThanOrEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodLessThanOrEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodInSubset"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodNotInSubset"]
+- ["6Fluent15QuerySupportingP", "queryFilterRelationAnd"]
+- ["6Fluent15QuerySupportingP", "queryFilterRelationOr"]
+- ["6Fluent15QuerySupportingP", "querySortDirectionAscending"]
+- ["6Fluent15QuerySupportingP", "querySortDirectionDescending"]
+- ["6Fluent15QuerySupportingP", "querySort"]
+- ["6Fluent15QuerySupportingP", "querySortApply"]
+- ["6Fluent15QuerySupportingP", "queryAggregateCount"]
+- ["6Fluent15QuerySupportingP", "queryAggregateSum"]
+- ["6Fluent15QuerySupportingP", "queryAggregateAverage"]
+- ["6Fluent15QuerySupportingP", "queryAggregateMinimum"]
+- ["6Fluent15QuerySupportingP", "queryAggregateMaximum"]
+- ["6Fluent15QuerySupportingP", "queryAggregate"]
+- ["6Fluent15QuerySupportingP", "queryRangeApply"]
+- ["6Fluent15QuerySupportingP", "queryKeyAll"]
+- ["6Fluent15QuerySupportingP", "queryKey"]
+- ["6Fluent15QuerySupportingP", "queryKeyApply"]
+- ["6Fluent15QuerySupportingP", "queryFilter"]
+- ["6Fluent15QuerySupportingP", "queryFilters"]
+- ["6Fluent15QuerySupportingP", "queryFilterApply"]
+- ["6Fluent15QuerySupportingP", "queryDefaultFilterRelation"]
+- ["6Fluent15QuerySupportingP", "queryActionApply"]
+- ["6Fluent15QuerySupportingP", "queryDataSet"]
+- ["6Fluent15QuerySupportingP", "queryDataApply"]
+- ["6Fluent15QuerySupportingP", "queryField"]
+- ["6Fluent15QuerySupportingP", "queryFilterValueNil"]
+- ["6Fluent15QuerySupportingP", "queryFilterValue"]
+- ["6Fluent15QuerySupportingP", "queryEncode"]
+- ["6Fluent15QuerySupportingP", "queryFilterGroup"]
+- ["6Fluent15QuerySupportingP", "queryDecode"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&="
+- !private "-"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "Decodable"
+- "Dictionary"
+- "Encodable"
+- "Equatable"
+- "FluentProperty"
+- "FluentSQLQuery"
+- "FluentSQLQueryStatement"
+- "Future"
+- "Int"
+- "QuerySupporting"
+- "SQLBinaryOperator"
+- "SQLColumnIdentifier"
+- "SQLConnection"
+- "SQLDirection"
+- "SQLExpression"
+- "SQLOrderBy"
+- !private "SQLQueryEncoder"
+- "SQLSelectExpression"
+- "String"
+- !private "StringLiteralType"
+- !private "|="
+- !private "~="
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "all"]
+- !private ["4Core15AnyOptionalTypeP", "bind"]
+- !private ["4Core15AnyOptionalTypeP", "expression"]
+- !private ["4Core15AnyOptionalTypeP", "flatMap"]
+- !private ["4Core15AnyOptionalTypeP", "identifier"]
+- ["4Core15AnyOptionalTypeP", "none"]
+- ["4Core15AnyOptionalTypeP", "some"]
+- !private ["4Core15AnyOptionalTypeP", "table"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "all"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "bind"]
+- !private ["4Core22AnyReflectionDecodableP", "compactMap"]
+- !private ["4Core22AnyReflectionDecodableP", "expression"]
+- !private ["4Core22AnyReflectionDecodableP", "flatMap"]
+- !private ["4Core22AnyReflectionDecodableP", "identifier"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "map"]
+- ["4Core22AnyReflectionDecodableP", "none"]
+- ["4Core22AnyReflectionDecodableP", "some"]
+- !private ["4Core22AnyReflectionDecodableP", "subscript"]
+- !private ["4Core22AnyReflectionDecodableP", "table"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["s23BidirectionalCollectionP", "and"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "compactMap"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "or"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s11ClosedRangeV", "and"]
+- !private ["s11ClosedRangeV", "or"]
+- !private ["s10CollectionP", "and"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "compactMap"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "or"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "compactMap"]
+- !private ["3NIO20ContiguousCollectionP", "map"]
+- !private ["3NIO20ContiguousCollectionP", "subscript"]
+- !private ["s20CountableClosedRangeV", "and"]
+- !private ["s20CountableClosedRangeV", "or"]
+- !private ["s14CountableRangeV", "and"]
+- !private ["s14CountableRangeV", "or"]
+- !private ["s28CustomDebugStringConvertibleP", "all"]
+- !private ["s28CustomDebugStringConvertibleP", "and"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bind"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "expression"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- ["s28CustomDebugStringConvertibleP", "none"]
+- !private ["s28CustomDebugStringConvertibleP", "or"]
+- ["s28CustomDebugStringConvertibleP", "some"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "table"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "all"]
+- !private ["s17CustomReflectableP", "and"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "bind"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "expression"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "identifier"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s17CustomReflectableP", "none"]
+- !private ["s17CustomReflectableP", "or"]
+- ["s17CustomReflectableP", "some"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "table"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "and"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "or"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["11DatabaseKit0A0P", "Bool"]
+- ["11DatabaseKit0A0P", "Connection"]
+- ["11DatabaseKit0A0P", "Decodable"]
+- ["11DatabaseKit0A0P", "Dictionary"]
+- ["11DatabaseKit0A0P", "Encodable"]
+- ["11DatabaseKit0A0P", "Equatable"]
+- ["11DatabaseKit0A0P", "FluentProperty"]
+- ["11DatabaseKit0A0P", "FluentSQLQuery"]
+- ["11DatabaseKit0A0P", "FluentSQLQueryStatement"]
+- ["11DatabaseKit0A0P", "Future"]
+- ["11DatabaseKit0A0P", "Int"]
+- ["11DatabaseKit0A0P", "Output"]
+- ["11DatabaseKit0A0P", "Query"]
+- ["11DatabaseKit0A0P", "QueryAction"]
+- ["11DatabaseKit0A0P", "QueryAggregate"]
+- ["11DatabaseKit0A0P", "QueryData"]
+- ["11DatabaseKit0A0P", "QueryField"]
+- ["11DatabaseKit0A0P", "QueryFilter"]
+- ["11DatabaseKit0A0P", "QueryFilterMethod"]
+- ["11DatabaseKit0A0P", "QueryFilterRelation"]
+- ["11DatabaseKit0A0P", "QueryFilterValue"]
+- ["11DatabaseKit0A0P", "QueryKey"]
+- ["11DatabaseKit0A0P", "QuerySort"]
+- ["11DatabaseKit0A0P", "QuerySortDirection"]
+- ["11DatabaseKit0A0P", "SQLBinaryOperator"]
+- ["11DatabaseKit0A0P", "SQLColumnIdentifier"]
+- ["11DatabaseKit0A0P", "SQLConnection"]
+- ["11DatabaseKit0A0P", "SQLDirection"]
+- ["11DatabaseKit0A0P", "SQLExpression"]
+- ["11DatabaseKit0A0P", "SQLOrderBy"]
+- !private ["11DatabaseKit0A0P", "SQLQueryEncoder"]
+- ["11DatabaseKit0A0P", "SQLSelectExpression"]
+- ["11DatabaseKit0A0P", "String"]
+- !private ["11DatabaseKit0A11ConnectableP", "decode"]
+- !private ["11DatabaseKit0A11ConnectableP", "future"]
+- !private ["11DatabaseKit0A10ConnectionP", "decode"]
+- !private ["11DatabaseKit0A10ConnectionP", "future"]
+- !private ["11DatabaseKit0A9QueryableP", "decode"]
+- !private ["11DatabaseKit0A9QueryableP", "future"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "all"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "bind"]
+- !private ["s9DecodableP", "compactMap"]
+- !private ["s9DecodableP", "expression"]
+- !private ["s9DecodableP", "flatMap"]
+- !private ["s9DecodableP", "identifier"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- ["s9DecodableP", "none"]
+- ["s9DecodableP", "some"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "table"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "all"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "bind"]
+- !private ["s9EncodableP", "compactMap"]
+- !private ["s9EncodableP", "expression"]
+- !private ["s9EncodableP", "flatMap"]
+- !private ["s9EncodableP", "identifier"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- ["s9EncodableP", "none"]
+- ["s9EncodableP", "some"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "table"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "all"]
+- ["s9EquatableP", "and"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "bind"]
+- !private ["s9EquatableP", "compactMap"]
+- !private ["s9EquatableP", "expression"]
+- !private ["s9EquatableP", "flatMap"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- ["s9EquatableP", "none"]
+- ["s9EquatableP", "or"]
+- ["s9EquatableP", "some"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "table"]
+- !private ["3NIO14EventLoopGroupP", "decode"]
+- !private ["3NIO14EventLoopGroupP", "future"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Expression"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "all"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "expression"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "identifier"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isAll"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s25ExpressibleByFloatLiteralP", "Function"]
+- !private ["s25ExpressibleByFloatLiteralP", "binary"]
+- !private ["s25ExpressibleByFloatLiteralP", "bind"]
+- !private ["s25ExpressibleByFloatLiteralP", "column"]
+- !private ["s25ExpressibleByFloatLiteralP", "function"]
+- !private ["s25ExpressibleByFloatLiteralP", "group"]
+- !private ["s25ExpressibleByFloatLiteralP", "literal"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Function"]
+- !private ["s27ExpressibleByIntegerLiteralP", "binary"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bind"]
+- !private ["s27ExpressibleByIntegerLiteralP", "column"]
+- !private ["s27ExpressibleByIntegerLiteralP", "function"]
+- !private ["s27ExpressibleByIntegerLiteralP", "group"]
+- !private ["s27ExpressibleByIntegerLiteralP", "literal"]
+- !private ["s23ExpressibleByNilLiteralP", "all"]
+- !private ["s23ExpressibleByNilLiteralP", "bind"]
+- !private ["s23ExpressibleByNilLiteralP", "expression"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["s23ExpressibleByNilLiteralP", "identifier"]
+- ["s23ExpressibleByNilLiteralP", "none"]
+- ["s23ExpressibleByNilLiteralP", "some"]
+- !private ["s23ExpressibleByNilLiteralP", "table"]
+- !private ["s26ExpressibleByStringLiteralP", "Expression"]
+- !private ["s26ExpressibleByStringLiteralP", "all"]
+- !private ["s26ExpressibleByStringLiteralP", "expression"]
+- !private ["s26ExpressibleByStringLiteralP", "identifier"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isAll"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Expression"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "all"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "expression"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "identifier"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isAll"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["7Service10ExtendableP", "decode"]
+- !private ["7Service10ExtendableP", "future"]
+- !private ["6Fluent0A8PropertyV", "entity"]
+- !private ["6Fluent0A8PropertyV", "path"]
+- !private ["9FluentSQL0A8SQLQueryP", "Expression"]
+- !private ["9FluentSQL0A8SQLQueryP", "defaultBinaryOperator"]
+- !private ["9FluentSQL0A8SQLQueryP", "keys"]
+- !private ["9FluentSQL0A8SQLQueryP", "limit"]
+- !private ["9FluentSQL0A8SQLQueryP", "offset"]
+- !private ["9FluentSQL0A8SQLQueryP", "orderBy"]
+- !private ["9FluentSQL0A8SQLQueryP", "predicate"]
+- !private ["9FluentSQL0A8SQLQueryP", "query"]
+- !private ["9FluentSQL0A8SQLQueryP", "statement"]
+- !private ["9FluentSQL0A8SQLQueryP", "table"]
+- !private ["9FluentSQL0A8SQLQueryP", "values"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "delete"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "insert"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "isInsert"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "select"]
+- !private ["9FluentSQL0A17SQLQueryStatementP", "update"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["6Fluent2IDP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "compactMap"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "map"]
+- !private ["4Core23LosslessDataConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "compactMap"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["Sq", "all"]
+- !private ["Sq", "bind"]
+- !private ["Sq", "expression"]
+- !private ["Sq", "flatMap"]
+- !private ["Sq", "identifier"]
+- ["Sq", "none"]
+- ["Sq", "some"]
+- !private ["Sq", "table"]
+- !private ["4Core12OptionalTypeP", "all"]
+- !private ["4Core12OptionalTypeP", "bind"]
+- !private ["4Core12OptionalTypeP", "expression"]
+- !private ["4Core12OptionalTypeP", "flatMap"]
+- !private ["4Core12OptionalTypeP", "identifier"]
+- ["4Core12OptionalTypeP", "none"]
+- ["4Core12OptionalTypeP", "some"]
+- !private ["4Core12OptionalTypeP", "table"]
+- ["6Fluent15QuerySupportingP", "Bool"]
+- ["6Fluent15QuerySupportingP", "Connection"]
+- ["6Fluent15QuerySupportingP", "Decodable"]
+- ["6Fluent15QuerySupportingP", "Dictionary"]
+- ["6Fluent15QuerySupportingP", "Encodable"]
+- ["6Fluent15QuerySupportingP", "Equatable"]
+- ["6Fluent15QuerySupportingP", "FluentProperty"]
+- ["6Fluent15QuerySupportingP", "FluentSQLQuery"]
+- ["6Fluent15QuerySupportingP", "FluentSQLQueryStatement"]
+- ["6Fluent15QuerySupportingP", "Future"]
+- ["6Fluent15QuerySupportingP", "Int"]
+- ["6Fluent15QuerySupportingP", "Output"]
+- ["6Fluent15QuerySupportingP", "Query"]
+- ["6Fluent15QuerySupportingP", "QueryAction"]
+- ["6Fluent15QuerySupportingP", "QueryAggregate"]
+- ["6Fluent15QuerySupportingP", "QueryData"]
+- ["6Fluent15QuerySupportingP", "QueryField"]
+- ["6Fluent15QuerySupportingP", "QueryFilter"]
+- ["6Fluent15QuerySupportingP", "QueryFilterMethod"]
+- ["6Fluent15QuerySupportingP", "QueryFilterRelation"]
+- ["6Fluent15QuerySupportingP", "QueryFilterValue"]
+- ["6Fluent15QuerySupportingP", "QueryKey"]
+- ["6Fluent15QuerySupportingP", "QuerySort"]
+- ["6Fluent15QuerySupportingP", "QuerySortDirection"]
+- ["6Fluent15QuerySupportingP", "SQLBinaryOperator"]
+- ["6Fluent15QuerySupportingP", "SQLColumnIdentifier"]
+- ["6Fluent15QuerySupportingP", "SQLConnection"]
+- ["6Fluent15QuerySupportingP", "SQLDirection"]
+- ["6Fluent15QuerySupportingP", "SQLExpression"]
+- ["6Fluent15QuerySupportingP", "SQLOrderBy"]
+- !private ["6Fluent15QuerySupportingP", "SQLQueryEncoder"]
+- ["6Fluent15QuerySupportingP", "SQLSelectExpression"]
+- ["6Fluent15QuerySupportingP", "String"]
+- ["6Fluent15QuerySupportingP", "query"]
+- ["6Fluent15QuerySupportingP", "queryActionApply"]
+- ["6Fluent15QuerySupportingP", "queryActionCreate"]
+- ["6Fluent15QuerySupportingP", "queryActionDelete"]
+- ["6Fluent15QuerySupportingP", "queryActionIsCreate"]
+- ["6Fluent15QuerySupportingP", "queryActionRead"]
+- ["6Fluent15QuerySupportingP", "queryActionUpdate"]
+- ["6Fluent15QuerySupportingP", "queryAggregate"]
+- ["6Fluent15QuerySupportingP", "queryAggregateAverage"]
+- ["6Fluent15QuerySupportingP", "queryAggregateCount"]
+- ["6Fluent15QuerySupportingP", "queryAggregateMaximum"]
+- ["6Fluent15QuerySupportingP", "queryAggregateMinimum"]
+- ["6Fluent15QuerySupportingP", "queryAggregateSum"]
+- ["6Fluent15QuerySupportingP", "queryDataApply"]
+- ["6Fluent15QuerySupportingP", "queryDataSet"]
+- ["6Fluent15QuerySupportingP", "queryDecode"]
+- ["6Fluent15QuerySupportingP", "queryDefaultFilterRelation"]
+- ["6Fluent15QuerySupportingP", "queryEncode"]
+- ["6Fluent15QuerySupportingP", "queryEntity"]
+- ["6Fluent15QuerySupportingP", "queryField"]
+- ["6Fluent15QuerySupportingP", "queryFilter"]
+- ["6Fluent15QuerySupportingP", "queryFilterApply"]
+- ["6Fluent15QuerySupportingP", "queryFilterGroup"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodGreaterThan"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodGreaterThanOrEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodInSubset"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodLessThan"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodLessThanOrEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodNotEqual"]
+- ["6Fluent15QuerySupportingP", "queryFilterMethodNotInSubset"]
+- ["6Fluent15QuerySupportingP", "queryFilterRelationAnd"]
+- ["6Fluent15QuerySupportingP", "queryFilterRelationOr"]
+- ["6Fluent15QuerySupportingP", "queryFilterValue"]
+- ["6Fluent15QuerySupportingP", "queryFilterValueNil"]
+- ["6Fluent15QuerySupportingP", "queryFilters"]
+- ["6Fluent15QuerySupportingP", "queryKey"]
+- ["6Fluent15QuerySupportingP", "queryKeyAll"]
+- ["6Fluent15QuerySupportingP", "queryKeyApply"]
+- ["6Fluent15QuerySupportingP", "queryRangeApply"]
+- ["6Fluent15QuerySupportingP", "querySort"]
+- ["6Fluent15QuerySupportingP", "querySortApply"]
+- ["6Fluent15QuerySupportingP", "querySortDirectionAscending"]
+- ["6Fluent15QuerySupportingP", "querySortDirectionDescending"]
+- !private ["s22RandomAccessCollectionP", "and"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "compactMap"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "or"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s5RangeV", "and"]
+- !private ["s5RangeV", "or"]
+- !private ["s15RangeExpressionP", "and"]
+- !private ["s15RangeExpressionP", "or"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "compactMap"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "all"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "bind"]
+- !private ["4Core19ReflectionDecodableP", "compactMap"]
+- !private ["4Core19ReflectionDecodableP", "expression"]
+- !private ["4Core19ReflectionDecodableP", "flatMap"]
+- !private ["4Core19ReflectionDecodableP", "identifier"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "map"]
+- ["4Core19ReflectionDecodableP", "none"]
+- ["4Core19ReflectionDecodableP", "some"]
+- !private ["4Core19ReflectionDecodableP", "subscript"]
+- !private ["4Core19ReflectionDecodableP", "table"]
+- ["3SQL17SQLBinaryOperatorP", "and"]
+- !private ["3SQL17SQLBinaryOperatorP", "equal"]
+- !private ["3SQL17SQLBinaryOperatorP", "greaterThan"]
+- !private ["3SQL17SQLBinaryOperatorP", "greaterThanOrEqual"]
+- !private ["3SQL17SQLBinaryOperatorP", "in"]
+- !private ["3SQL17SQLBinaryOperatorP", "lessThan"]
+- !private ["3SQL17SQLBinaryOperatorP", "lessThanOrEqual"]
+- !private ["3SQL17SQLBinaryOperatorP", "notEqual"]
+- !private ["3SQL17SQLBinaryOperatorP", "notIn"]
+- ["3SQL17SQLBinaryOperatorP", "or"]
+- !private ["3SQL7SQLBindP", "encodable"]
+- !private ["3SQL19SQLColumnIdentifierP", "column"]
+- !private ["3SQL19SQLColumnIdentifierP", "identifier"]
+- !private ["3SQL13SQLConnectionP", "decode"]
+- !private ["3SQL13SQLConnectionP", "future"]
+- !private ["3SQL12SQLDirectionP", "ascending"]
+- !private ["3SQL12SQLDirectionP", "descending"]
+- !private ["3SQL13SQLExpressionP", "Function"]
+- !private ["3SQL13SQLExpressionP", "binary"]
+- !private ["3SQL13SQLExpressionP", "bind"]
+- !private ["3SQL13SQLExpressionP", "column"]
+- !private ["3SQL13SQLExpressionP", "function"]
+- !private ["3SQL13SQLExpressionP", "group"]
+- !private ["3SQL13SQLExpressionP", "literal"]
+- !private ["3SQL11SQLFunctionP", "Argument"]
+- !private ["3SQL11SQLFunctionP", "function"]
+- !private ["3SQL19SQLFunctionArgumentP", "all"]
+- !private ["3SQL19SQLFunctionArgumentP", "expression"]
+- !private ["3SQL13SQLIdentifierP", "identifier"]
+- !private ["3SQL13SQLIdentifierP", "string"]
+- !private ["3SQL10SQLLiteralP", "null"]
+- !private ["3SQL10SQLOrderByP", "orderBy"]
+- !private ["3SQL15SQLQueryEncoderV", "encode"]
+- !private ["3SQL15SQLQueryEncoderV", "init"]
+- !private ["3SQL19SQLSelectExpressionP", "Expression"]
+- !private ["3SQL19SQLSelectExpressionP", "all"]
+- !private ["3SQL19SQLSelectExpressionP", "expression"]
+- !private ["3SQL19SQLSelectExpressionP", "isAll"]
+- !private ["3SQL15SQLSerializableP", "Argument"]
+- !private ["3SQL15SQLSerializableP", "Expression"]
+- !private ["3SQL15SQLSerializableP", "Function"]
+- !private ["3SQL15SQLSerializableP", "all"]
+- ["3SQL15SQLSerializableP", "and"]
+- !private ["3SQL15SQLSerializableP", "ascending"]
+- !private ["3SQL15SQLSerializableP", "binary"]
+- !private ["3SQL15SQLSerializableP", "bind"]
+- !private ["3SQL15SQLSerializableP", "column"]
+- !private ["3SQL15SQLSerializableP", "descending"]
+- !private ["3SQL15SQLSerializableP", "encodable"]
+- !private ["3SQL15SQLSerializableP", "equal"]
+- !private ["3SQL15SQLSerializableP", "expression"]
+- !private ["3SQL15SQLSerializableP", "function"]
+- !private ["3SQL15SQLSerializableP", "greaterThan"]
+- !private ["3SQL15SQLSerializableP", "greaterThanOrEqual"]
+- !private ["3SQL15SQLSerializableP", "group"]
+- !private ["3SQL15SQLSerializableP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "in"]
+- !private ["3SQL15SQLSerializableP", "isAll"]
+- !private ["3SQL15SQLSerializableP", "lessThan"]
+- !private ["3SQL15SQLSerializableP", "lessThanOrEqual"]
+- !private ["3SQL15SQLSerializableP", "literal"]
+- !private ["3SQL15SQLSerializableP", "notEqual"]
+- !private ["3SQL15SQLSerializableP", "notIn"]
+- !private ["3SQL15SQLSerializableP", "null"]
+- ["3SQL15SQLSerializableP", "or"]
+- !private ["3SQL15SQLSerializableP", "orderBy"]
+- !private ["3SQL15SQLSerializableP", "string"]
+- !private ["3SQL15SQLSerializableP", "table"]
+- !private ["3SQL18SQLTableIdentifierP", "identifier"]
+- !private ["3SQL18SQLTableIdentifierP", "table"]
+- !private ["s8SequenceP", "and"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "compactMap"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "or"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "all"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "bind"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "expression"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "identifier"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s21_ObjectiveCBridgeableP", "none"]
+- ["s21_ObjectiveCBridgeableP", "some"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "table"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "4Core15AnyOptionalTypeP"
+- "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s11ClosedRangeV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s20CountableClosedRangeV"
+- !private "s14CountableRangeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "11DatabaseKit0A9QueryableP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- !private "6Fluent0A8PropertyV"
+- !private "9FluentSQL0A8SQLQueryP"
+- !private "9FluentSQL0A17SQLQueryStatementP"
+- !private "s8HashableP"
+- !private "6Fluent2IDP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "Sq"
+- "4Core12OptionalTypeP"
+- "6Fluent15QuerySupportingP"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- "4Core19ReflectionDecodableP"
+- "3SQL17SQLBinaryOperatorP"
+- !private "3SQL7SQLBindP"
+- !private "3SQL19SQLColumnIdentifierP"
+- !private "3SQL13SQLConnectionP"
+- !private "3SQL12SQLDirectionP"
+- !private "3SQL13SQLExpressionP"
+- !private "3SQL11SQLFunctionP"
+- !private "3SQL19SQLFunctionArgumentP"
+- !private "3SQL13SQLIdentifierP"
+- !private "3SQL10SQLLiteralP"
+- !private "3SQL10SQLOrderByP"
+- !private "3SQL15SQLQueryEncoderV"
+- !private "3SQL19SQLSelectExpressionP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/SQL.framework/Modules/SQL.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Async.framework/Modules/Async.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Command.framework/Modules/Command.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Service.framework/Modules/Service.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Console.framework/Modules/Console.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Core.framework/Modules/Core.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Logging.framework/Modules/Logging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Debugging.framework/Modules/Debugging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Bits.framework/Modules/Bits.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Fluent.framework/Modules/Fluent.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "08a61df95d16c0dd831fbbc163af5f24"

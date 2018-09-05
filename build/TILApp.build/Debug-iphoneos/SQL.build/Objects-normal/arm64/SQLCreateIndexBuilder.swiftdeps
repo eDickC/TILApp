@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLCreateIndexBuilder"
+provides-nominal:
+- "3SQL21SQLCreateIndexBuilderC"
+provides-member:
+- ["3SQL21SQLCreateIndexBuilderC", ""]
+- ["3SQL13SQLConnectionP", ""]
+- ["3SQL13SQLConnectionP", "create"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "KeyPath"
+- "SQLConnection"
+- "SQLCreateIndexBuilder"
+- "SQLQueryBuilder"
+- "SQLTable"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "unique"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "unique"]
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s10CollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "unique"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "unique"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["11DatabaseKit0A9QueryableP", "Query"]
+- ["11DatabaseKit0A9QueryableP", "SQLCreateIndexBuilder"]
+- ["11DatabaseKit0A9QueryableP", "Self"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "unique"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "unique"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "unique"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s23ExpressibleByNilLiteralP", "unique"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["Sq", "unique"]
+- !private ["4Core12OptionalTypeP", "unique"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "unique"]
+- ["3SQL13SQLAlterTableP", "ColumnDefinition"]
+- !private ["3SQL19SQLColumnIdentifierP", "keyPath"]
+- ["3SQL13SQLConnectionP", "Query"]
+- ["3SQL13SQLConnectionP", "SQLCreateIndexBuilder"]
+- ["3SQL13SQLConnectionP", "Self"]
+- ["3SQL13SQLConnectionP", "create"]
+- !private ["3SQL14SQLCreateIndexP", "columns"]
+- !private ["3SQL14SQLCreateIndexP", "createIndex"]
+- !private ["3SQL14SQLCreateIndexP", "modifier"]
+- ["3SQL21SQLCreateIndexBuilderC", "ColumnDefinition"]
+- ["3SQL21SQLCreateIndexBuilderC", "Connection"]
+- ["3SQL21SQLCreateIndexBuilderC", "KeyPath"]
+- ["3SQL21SQLCreateIndexBuilderC", "SQLTable"]
+- ["3SQL21SQLCreateIndexBuilderC", "_Default_Connection"]
+- ["3SQL21SQLCreateIndexBuilderC", "connection"]
+- ["3SQL21SQLCreateIndexBuilderC", "createIndex"]
+- ["3SQL21SQLCreateIndexBuilderC", "deinit"]
+- ["3SQL21SQLCreateIndexBuilderC", "init"]
+- ["3SQL21SQLCreateIndexBuilderC", "on"]
+- ["3SQL21SQLCreateIndexBuilderC", "query"]
+- ["3SQL21SQLCreateIndexBuilderC", "unique"]
+- !private ["3SQL16SQLIndexModifierP", "unique"]
+- ["3SQL8SQLQueryP", "AlterTable"]
+- ["3SQL8SQLQueryP", "CreateIndex"]
+- !private ["3SQL8SQLQueryP", "createIndex"]
+- ["3SQL15SQLQueryBuilderP", "Connection"]
+- ["3SQL15SQLQueryBuilderP", ""]
+- ["3SQL15SQLQueryBuilderP", "_Default_Connection"]
+- ["3SQL15SQLQueryBuilderP", "connection"]
+- !private ["3SQL15SQLQueryBuilderP", "createIndex"]
+- !private ["3SQL15SQLQueryBuilderP", "init"]
+- ["3SQL15SQLQueryBuilderP", "query"]
+- ["3SQL15SQLSerializableP", "AlterTable"]
+- ["3SQL15SQLSerializableP", "ColumnDefinition"]
+- ["3SQL15SQLSerializableP", "CreateIndex"]
+- !private ["3SQL15SQLSerializableP", "columns"]
+- !private ["3SQL15SQLSerializableP", "createIndex"]
+- !private ["3SQL15SQLSerializableP", "keyPath"]
+- !private ["3SQL15SQLSerializableP", "modifier"]
+- !private ["3SQL15SQLSerializableP", "unique"]
+- !private ["s8SequenceP", "append"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "unique"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A9QueryableP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s17MutableCollectionP"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "4Core19ReflectionDecodableP"
+- "3SQL13SQLAlterTableP"
+- !private "3SQL19SQLColumnIdentifierP"
+- "3SQL13SQLConnectionP"
+- !private "3SQL14SQLCreateIndexP"
+- "3SQL21SQLCreateIndexBuilderC"
+- !private "3SQL16SQLIndexModifierP"
+- "3SQL8SQLQueryP"
+- "3SQL15SQLQueryBuilderP"
+- "3SQL15SQLSerializableP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Async.framework/Modules/Async.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Service.framework/Modules/Service.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Core.framework/Modules/Core.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Debugging.framework/Modules/Debugging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Bits.framework/Modules/Bits.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "c8bf3a89555d31a276dc77d11cd491f9"

@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["7Service9ContainerP", ""]
+- ["7Service9ContainerP", "withPooledConnection"]
+- ["7Service9ContainerP", "requestPooledConnection"]
+- ["7Service9ContainerP", "releasePooledConnection"]
+- ["7Service9ContainerP", "connectionPool"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ConfiguredDatabase"
+- "Container"
+- "DatabaseConnectionPool"
+- !private "DatabaseConnectionPoolCache"
+- "DatabaseIdentifier"
+- "Future"
+depends-member:
+- ["5Async11BasicWorkerP", "ConfiguredDatabase"]
+- ["5Async11BasicWorkerP", "DatabaseConnectionPool"]
+- !private ["5Async11BasicWorkerP", "DatabaseConnectionPoolCache"]
+- ["5Async11BasicWorkerP", "DatabaseIdentifier"]
+- ["5Async11BasicWorkerP", "Future"]
+- !private ["5Async11BasicWorkerP", "connectionPool"]
+- !private ["5Async11BasicWorkerP", "eventLoop"]
+- !private ["5Async11BasicWorkerP", "make"]
+- ["11DatabaseKit010ConfiguredA0V", "deinit"]
+- ["7Service9ContainerP", "ConfiguredDatabase"]
+- ["7Service9ContainerP", "DatabaseConnectionPool"]
+- !private ["7Service9ContainerP", "DatabaseConnectionPoolCache"]
+- ["7Service9ContainerP", "DatabaseIdentifier"]
+- ["7Service9ContainerP", "Future"]
+- ["7Service9ContainerP", "connectionPool"]
+- !private ["7Service9ContainerP", "eventLoop"]
+- !private ["7Service9ContainerP", "make"]
+- ["7Service9ContainerP", "releasePooledConnection"]
+- ["7Service9ContainerP", "requestPooledConnection"]
+- ["7Service9ContainerP", "withPooledConnection"]
+- !private ["11DatabaseKit0A14ConnectionPoolC", "releaseConnection"]
+- !private ["11DatabaseKit0A14ConnectionPoolC", "requestConnection"]
+- !private ["11DatabaseKit0A14ConnectionPoolC", "withConnection"]
+- !private ["11DatabaseKit0A19ConnectionPoolCacheC", "requirePool"]
+- !private ["11DatabaseKit0A9QueryableP", "releaseConnection"]
+- !private ["11DatabaseKit0A9QueryableP", "requestConnection"]
+- !private ["11DatabaseKit0A9QueryableP", "withConnection"]
+- !private ["3NIO9EventLoopP", "newFailedFuture"]
+- ["3NIO14EventLoopGroupP", "ConfiguredDatabase"]
+- ["3NIO14EventLoopGroupP", "DatabaseConnectionPool"]
+- !private ["3NIO14EventLoopGroupP", "DatabaseConnectionPoolCache"]
+- ["3NIO14EventLoopGroupP", "DatabaseIdentifier"]
+- ["3NIO14EventLoopGroupP", "Future"]
+- !private ["3NIO14EventLoopGroupP", "connectionPool"]
+- !private ["3NIO14EventLoopGroupP", "eventLoop"]
+- !private ["3NIO14EventLoopGroupP", "make"]
+- !private ["3NIO14EventLoopGroupP", "newFailedFuture"]
+- !private ["7ServiceAAP", "requirePool"]
+- !private ["7Service0A4TypeP", "requirePool"]
+depends-nominal:
+- "5Async11BasicWorkerP"
+- "11DatabaseKit010ConfiguredA0V"
+- "7Service9ContainerP"
+- !private "11DatabaseKit0A14ConnectionPoolC"
+- !private "11DatabaseKit0A19ConnectionPoolCacheC"
+- !private "11DatabaseKit0A9QueryableP"
+- !private "3NIO9EventLoopP"
+- "3NIO14EventLoopGroupP"
+- !private "7ServiceAAP"
+- !private "7Service0A4TypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Async.framework/Modules/Async.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Service.framework/Modules/Service.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Core.framework/Modules/Core.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Debugging.framework/Modules/Debugging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Bits.framework/Modules/Bits.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "9f19326a7e05172258a4624abbff7211"

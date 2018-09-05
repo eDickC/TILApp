@@ -1,0 +1,4 @@
+framework module NIOTLS {
+    header "NIOTLS-Swift.h"
+    requires objc
+}

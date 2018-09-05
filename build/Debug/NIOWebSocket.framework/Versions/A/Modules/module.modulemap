@@ -1,0 +1,4 @@
+framework module NIOWebSocket {
+    header "NIOWebSocket-Swift.h"
+    requires objc
+}

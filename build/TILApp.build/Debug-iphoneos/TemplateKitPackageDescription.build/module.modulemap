@@ -1,0 +1,4 @@
+framework module TemplateKitPackageDescription {
+    header "TemplateKitPackageDescription-Swift.h"
+    requires objc
+}

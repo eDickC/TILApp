@@ -1,0 +1,4 @@
+framework module SQLPackageDescription {
+    header "SQLPackageDescription-Swift.h"
+    requires objc
+}

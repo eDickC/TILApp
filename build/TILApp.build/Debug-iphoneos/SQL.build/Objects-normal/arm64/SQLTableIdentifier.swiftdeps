@@ -1,0 +1,199 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLTableIdentifier"
+- "GenericSQLTableIdentifier"
+provides-nominal:
+- "3SQL18SQLTableIdentifierP"
+- "3SQL25GenericSQLTableIdentifierV"
+provides-member:
+- ["3SQL18SQLTableIdentifierP", ""]
+- ["3SQL25GenericSQLTableIdentifierV", ""]
+- ["3SQL18SQLTableIdentifierP", "table"]
+- ["3SQL18SQLTableIdentifierP", "table"]
+- ["3SQL18SQLTableIdentifierP", "keyPath"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnySQLTable"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Encodable"
+- "ExpressibleByStringLiteral"
+- "GenericSQLTableIdentifier"
+- "KeyPath"
+- "SQLIdentifier"
+- "SQLSerializable"
+- "SQLTable"
+- "SQLTableIdentifier"
+- "String"
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "table"]
+- !private ["4Core14AnyReflectableP", "sqlTableIdentifierString"]
+- !private ["4Core22AnyReflectionDecodableP", "table"]
+- !private ["3SQL11AnySQLTableP", "sqlTableIdentifierString"]
+- !private ["s28CustomDebugStringConvertibleP", "table"]
+- !private ["s17CustomReflectableP", "table"]
+- !private ["s9DecodableP", "sqlTableIdentifierString"]
+- !private ["s9DecodableP", "table"]
+- !private ["s9EncodableP", "sqlTableIdentifierString"]
+- !private ["s9EncodableP", "table"]
+- !private ["s9EquatableP", "table"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Identifier"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Identifier"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "identifier"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "serialize"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "table"]
+- !private ["s23ExpressibleByNilLiteralP", "table"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Identifier"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Identifier"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "identifier"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "serialize"]
+- ["s26ExpressibleByStringLiteralP", "table"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Identifier"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Identifier"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "identifier"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "serialize"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "table"]
+- ["3SQL25GenericSQLTableIdentifierV", "Encodable"]
+- ["3SQL25GenericSQLTableIdentifierV", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL25GenericSQLTableIdentifierV", "GenericSQLTableIdentifier"]
+- ["3SQL25GenericSQLTableIdentifierV", "Identifier"]
+- ["3SQL25GenericSQLTableIdentifierV", "String"]
+- ["3SQL25GenericSQLTableIdentifierV", "StringLiteralType"]
+- ["3SQL25GenericSQLTableIdentifierV", "UnicodeScalarLiteralType"]
+- ["3SQL25GenericSQLTableIdentifierV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL25GenericSQLTableIdentifierV", "_Default_Identifier"]
+- ["3SQL25GenericSQLTableIdentifierV", "_Default_StringLiteralType"]
+- ["3SQL25GenericSQLTableIdentifierV", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL25GenericSQLTableIdentifierV", "deinit"]
+- ["3SQL25GenericSQLTableIdentifierV", "identifier"]
+- ["3SQL25GenericSQLTableIdentifierV", "init"]
+- ["3SQL25GenericSQLTableIdentifierV", "serialize"]
+- ["3SQL25GenericSQLTableIdentifierV", "table"]
+- !private ["Sq", "table"]
+- !private ["4Core12OptionalTypeP", "table"]
+- !private ["4Core11ReflectableP", "sqlTableIdentifierString"]
+- !private ["4Core19ReflectionDecodableP", "table"]
+- !private ["3SQL13SQLIdentifierP", "identifier"]
+- !private ["3SQL13SQLIdentifierP", "serialize"]
+- !private ["3SQL15SQLSerializableP", "AnySQLTable"]
+- ["3SQL15SQLSerializableP", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL15SQLSerializableP", "Identifier"]
+- ["3SQL15SQLSerializableP", "KeyPath"]
+- ["3SQL15SQLSerializableP", "SQLIdentifier"]
+- ["3SQL15SQLSerializableP", "SQLTable"]
+- ["3SQL15SQLSerializableP", "Self"]
+- ["3SQL15SQLSerializableP", "StringLiteralType"]
+- ["3SQL15SQLSerializableP", "UnicodeScalarLiteralType"]
+- ["3SQL15SQLSerializableP", ""]
+- ["3SQL15SQLSerializableP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_Identifier"]
+- ["3SQL15SQLSerializableP", "_Default_StringLiteralType"]
+- ["3SQL15SQLSerializableP", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL15SQLSerializableP", "identifier"]
+- ["3SQL15SQLSerializableP", "init"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- ["3SQL15SQLSerializableP", "table"]
+- !private ["3SQL8SQLTableP", "sqlTableIdentifierString"]
+- !private ["3SQL18SQLTableIdentifierP", "AnySQLTable"]
+- ["3SQL18SQLTableIdentifierP", "ExtendedGraphemeClusterLiteralType"]
+- ["3SQL18SQLTableIdentifierP", "Identifier"]
+- ["3SQL18SQLTableIdentifierP", "KeyPath"]
+- ["3SQL18SQLTableIdentifierP", "SQLIdentifier"]
+- ["3SQL18SQLTableIdentifierP", "SQLTable"]
+- ["3SQL18SQLTableIdentifierP", "Self"]
+- ["3SQL18SQLTableIdentifierP", "StringLiteralType"]
+- ["3SQL18SQLTableIdentifierP", "UnicodeScalarLiteralType"]
+- ["3SQL18SQLTableIdentifierP", ""]
+- ["3SQL18SQLTableIdentifierP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["3SQL18SQLTableIdentifierP", "_Default_Identifier"]
+- ["3SQL18SQLTableIdentifierP", "_Default_StringLiteralType"]
+- ["3SQL18SQLTableIdentifierP", "_Default_UnicodeScalarLiteralType"]
+- ["3SQL18SQLTableIdentifierP", "identifier"]
+- ["3SQL18SQLTableIdentifierP", "init"]
+- ["3SQL18SQLTableIdentifierP", "keyPath"]
+- ["3SQL18SQLTableIdentifierP", "serialize"]
+- ["3SQL18SQLTableIdentifierP", "table"]
+- !private ["s21_ObjectiveCBridgeableP", "table"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core14AnyReflectableP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "3SQL11AnySQLTableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "3SQL25GenericSQLTableIdentifierV"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- !private "4Core11ReflectableP"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL13SQLIdentifierP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL8SQLTableP"
+- "3SQL18SQLTableIdentifierP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIO.framework/Modules/NIO.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Async.framework/Modules/Async.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Service.framework/Modules/Service.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Core.framework/Modules/Core.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Debugging.framework/Modules/Debugging.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/Bits.framework/Modules/Bits.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/arm64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug-iphoneos/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+interface-hash: "3172401e3e647700a9083aec703077dc"

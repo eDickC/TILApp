@@ -1,0 +1,4 @@
+framework module swift_nio_sslPackageDescription {
+    header "swift_nio_sslPackageDescription-Swift.h"
+    requires objc
+}

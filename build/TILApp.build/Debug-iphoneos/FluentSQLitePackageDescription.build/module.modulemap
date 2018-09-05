@@ -1,0 +1,4 @@
+framework module FluentSQLitePackageDescription {
+    header "FluentSQLitePackageDescription-Swift.h"
+    requires objc
+}

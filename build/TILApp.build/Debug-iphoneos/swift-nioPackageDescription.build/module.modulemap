@@ -1,0 +1,4 @@
+framework module swift_nioPackageDescription {
+    header "swift_nioPackageDescription-Swift.h"
+    requires objc
+}

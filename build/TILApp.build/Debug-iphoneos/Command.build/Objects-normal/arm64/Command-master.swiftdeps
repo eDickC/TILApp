@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "63386ea62af8fc172790228209837144"
+build_time: [1536068717, 953492000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Base/CommandOption.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Base/CommandRunnable.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Command/Command.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Command/CommandArgument.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Config/CommandConfig.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Config/Commands.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Group/BasicCommandGroup.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Group/CommandGroup.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Run/CommandContext.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Run/CommandInput.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Run/Console+Run.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Run/Output+Autocomplete.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Run/Output+Help.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Utilities/CommandError.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Utilities/Exports.swift": [1536068667, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/console.git--2431895819212044213/Sources/Command/Utilities/Utilities.swift": [1536068667, 0]

@@ -1,0 +1,4 @@
+framework module NIOHTTP1 {
+    header "NIOHTTP1-Swift.h"
+    requires objc
+}

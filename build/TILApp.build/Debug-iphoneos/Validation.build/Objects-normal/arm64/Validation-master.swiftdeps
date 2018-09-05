@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "fa9beffe1282e5e6d826411cf94bb428"
+build_time: [1536068705, 9861000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Exports.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validatable.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/ValidationError.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validations.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/ValidatorType.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/AndValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/CharacterSetValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/CountValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/EmailValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/InValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/NilIgnoringValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/NilValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/NotValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/OrValidator.swift": [1536068666, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/validation.git--4403154650041669468/Sources/Validation/Validators/RangeValidator.swift": [1536068666, 0]

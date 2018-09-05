@@ -1,0 +1,246 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SQLiteModel"
+- "_SQLiteModel"
+- "SQLitePivot"
+- "SQLiteUUIDModel"
+- "SQLiteUUIDPivot"
+- "SQLiteStringModel"
+- "SQLiteStringPivot"
+- "SQLiteMigration"
+- "SQLiteTable"
+provides-nominal:
+- "12FluentSQLite0B5ModelP"
+- "12FluentSQLite01_B5ModelP"
+- "12FluentSQLite0B5PivotP"
+- "12FluentSQLite0B9UUIDModelP"
+- "12FluentSQLite0B9UUIDPivotP"
+- "12FluentSQLite0B11StringModelP"
+- "12FluentSQLite0B11StringPivotP"
+- "12FluentSQLite0B9MigrationP"
+- "12FluentSQLite0B5TableP"
+provides-member:
+- ["12FluentSQLite0B5ModelP", ""]
+- ["12FluentSQLite01_B5ModelP", ""]
+- ["12FluentSQLite0B5PivotP", ""]
+- ["12FluentSQLite0B9UUIDModelP", ""]
+- ["12FluentSQLite0B9UUIDPivotP", ""]
+- ["12FluentSQLite0B11StringModelP", ""]
+- ["12FluentSQLite0B11StringPivotP", ""]
+- ["12FluentSQLite0B9MigrationP", ""]
+- ["12FluentSQLite0B5TableP", ""]
+- ["12FluentSQLite0B5ModelP", "idKey"]
+- ["12FluentSQLite0B9UUIDModelP", "idKey"]
+- ["12FluentSQLite0B11StringModelP", "idKey"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Int"
+- "Migration"
+- "Model"
+- "Pivot"
+- "SQLTable"
+- "SQLiteDatabase"
+- "SQLiteMigration"
+- "SQLiteModel"
+- "SQLitePivot"
+- "SQLiteStringModel"
+- "SQLiteStringPivot"
+- "SQLiteTable"
+- "SQLiteUUIDModel"
+- "SQLiteUUIDPivot"
+- "String"
+- "UUID"
+- "_SQLiteModel"
+depends-member:
+- ["6Fluent12AnyMigrationP", "Database"]
+- ["6Fluent12AnyMigrationP", "SQLiteDatabase"]
+- ["6Fluent12AnyMigrationP", "Self"]
+- ["6Fluent8AnyModelP", "Database"]
+- ["6Fluent8AnyModelP", "ID"]
+- ["6Fluent8AnyModelP", "IDKey"]
+- ["6Fluent8AnyModelP", "Int"]
+- ["6Fluent8AnyModelP", "SQLiteDatabase"]
+- ["6Fluent8AnyModelP", "Self"]
+- ["6Fluent8AnyModelP", "String"]
+- ["6Fluent8AnyModelP", "UUID"]
+- !private ["6Fluent8AnyModelP", "id"]
+- ["4Core14AnyReflectableP", "Database"]
+- ["4Core14AnyReflectableP", "ID"]
+- ["4Core14AnyReflectableP", "IDKey"]
+- ["4Core14AnyReflectableP", "Int"]
+- ["4Core14AnyReflectableP", "SQLiteDatabase"]
+- ["4Core14AnyReflectableP", "Self"]
+- ["4Core14AnyReflectableP", "String"]
+- ["4Core14AnyReflectableP", "UUID"]
+- !private ["4Core14AnyReflectableP", "id"]
+- ["3SQL11AnySQLTableP", "Database"]
+- ["3SQL11AnySQLTableP", "ID"]
+- ["3SQL11AnySQLTableP", "IDKey"]
+- ["3SQL11AnySQLTableP", "Int"]
+- ["3SQL11AnySQLTableP", "SQLiteDatabase"]
+- ["3SQL11AnySQLTableP", "Self"]
+- ["3SQL11AnySQLTableP", "String"]
+- ["3SQL11AnySQLTableP", "UUID"]
+- !private ["3SQL11AnySQLTableP", "id"]
+- ["s9DecodableP", "Database"]
+- ["s9DecodableP", "ID"]
+- ["s9DecodableP", "IDKey"]
+- ["s9DecodableP", "Int"]
+- ["s9DecodableP", "SQLiteDatabase"]
+- ["s9DecodableP", "Self"]
+- ["s9DecodableP", "String"]
+- ["s9DecodableP", "UUID"]
+- !private ["s9DecodableP", "id"]
+- ["s9EncodableP", "Database"]
+- ["s9EncodableP", "ID"]
+- ["s9EncodableP", "IDKey"]
+- ["s9EncodableP", "Int"]
+- ["s9EncodableP", "SQLiteDatabase"]
+- ["s9EncodableP", "Self"]
+- ["s9EncodableP", "String"]
+- ["s9EncodableP", "UUID"]
+- !private ["s9EncodableP", "id"]
+- ["6Fluent9MigrationP", "Database"]
+- ["6Fluent9MigrationP", "SQLiteDatabase"]
+- ["6Fluent9MigrationP", "Self"]
+- ["6Fluent9MigrationP", ""]
+- ["6Fluent5ModelP", "Database"]
+- ["6Fluent5ModelP", "ID"]
+- ["6Fluent5ModelP", "IDKey"]
+- ["6Fluent5ModelP", "Int"]
+- ["6Fluent5ModelP", "SQLiteDatabase"]
+- ["6Fluent5ModelP", "Self"]
+- ["6Fluent5ModelP", "String"]
+- ["6Fluent5ModelP", "UUID"]
+- ["6Fluent5ModelP", ""]
+- !private ["6Fluent5ModelP", "id"]
+- ["6Fluent5PivotP", ""]
+- ["4Core11ReflectableP", "Database"]
+- ["4Core11ReflectableP", "ID"]
+- ["4Core11ReflectableP", "IDKey"]
+- ["4Core11ReflectableP", "Int"]
+- ["4Core11ReflectableP", "SQLiteDatabase"]
+- ["4Core11ReflectableP", "Self"]
+- ["4Core11ReflectableP", "String"]
+- ["4Core11ReflectableP", "UUID"]
+- !private ["4Core11ReflectableP", "id"]
+- ["3SQL8SQLTableP", "Database"]
+- ["3SQL8SQLTableP", "ID"]
+- ["3SQL8SQLTableP", "IDKey"]
+- ["3SQL8SQLTableP", "Int"]
+- ["3SQL8SQLTableP", "SQLiteDatabase"]
+- ["3SQL8SQLTableP", "Self"]
+- ["3SQL8SQLTableP", "String"]
+- ["3SQL8SQLTableP", "UUID"]
+- ["3SQL8SQLTableP", ""]
+- !private ["3SQL8SQLTableP", "id"]
+- ["12FluentSQLite0B9MigrationP", "Database"]
+- ["12FluentSQLite0B9MigrationP", "SQLiteDatabase"]
+- ["12FluentSQLite0B9MigrationP", "Self"]
+- ["12FluentSQLite0B5ModelP", "ID"]
+- ["12FluentSQLite0B5ModelP", "IDKey"]
+- ["12FluentSQLite0B5ModelP", "Int"]
+- ["12FluentSQLite0B5ModelP", "Self"]
+- ["12FluentSQLite0B5ModelP", ""]
+- ["12FluentSQLite0B5ModelP", "id"]
+- ["12FluentSQLite0B5ModelP", "idKey"]
+- ["12FluentSQLite0B11StringModelP", "ID"]
+- ["12FluentSQLite0B11StringModelP", "IDKey"]
+- ["12FluentSQLite0B11StringModelP", "Self"]
+- ["12FluentSQLite0B11StringModelP", "String"]
+- ["12FluentSQLite0B11StringModelP", ""]
+- ["12FluentSQLite0B11StringModelP", "id"]
+- ["12FluentSQLite0B11StringModelP", "idKey"]
+- ["12FluentSQLite0B5TableP", "Database"]
+- ["12FluentSQLite0B5TableP", "ID"]
+- ["12FluentSQLite0B5TableP", "IDKey"]
+- ["12FluentSQLite0B5TableP", "Int"]
+- ["12FluentSQLite0B5TableP", "SQLiteDatabase"]
+- ["12FluentSQLite0B5TableP", "Self"]
+- ["12FluentSQLite0B5TableP", "String"]
+- ["12FluentSQLite0B5TableP", "UUID"]
+- ["12FluentSQLite0B5TableP", ""]
+- !private ["12FluentSQLite0B5TableP", "id"]
+- ["12FluentSQLite0B9UUIDModelP", "ID"]
+- ["12FluentSQLite0B9UUIDModelP", "IDKey"]
+- ["12FluentSQLite0B9UUIDModelP", "Self"]
+- ["12FluentSQLite0B9UUIDModelP", "UUID"]
+- ["12FluentSQLite0B9UUIDModelP", ""]
+- ["12FluentSQLite0B9UUIDModelP", "id"]
+- ["12FluentSQLite0B9UUIDModelP", "idKey"]
+- ["12FluentSQLite01_B5ModelP", "Database"]
+- ["12FluentSQLite01_B5ModelP", "ID"]
+- ["12FluentSQLite01_B5ModelP", "IDKey"]
+- ["12FluentSQLite01_B5ModelP", "Int"]
+- ["12FluentSQLite01_B5ModelP", "SQLiteDatabase"]
+- ["12FluentSQLite01_B5ModelP", "Self"]
+- ["12FluentSQLite01_B5ModelP", "String"]
+- ["12FluentSQLite01_B5ModelP", "UUID"]
+- ["12FluentSQLite01_B5ModelP", ""]
+- !private ["12FluentSQLite01_B5ModelP", "id"]
+depends-nominal:
+- "6Fluent12AnyMigrationP"
+- "6Fluent8AnyModelP"
+- "4Core14AnyReflectableP"
+- "3SQL11AnySQLTableP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "6Fluent9MigrationP"
+- "6Fluent5ModelP"
+- "6Fluent5PivotP"
+- "4Core11ReflectableP"
+- "3SQL8SQLTableP"
+- "12FluentSQLite0B9MigrationP"
+- "12FluentSQLite0B5ModelP"
+- "12FluentSQLite0B11StringModelP"
+- "12FluentSQLite0B5TableP"
+- "12FluentSQLite0B9UUIDModelP"
+- "12FluentSQLite01_B5ModelP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Command.framework/Modules/Command.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d564fd9aac07bbee3017f9476b6c709c"

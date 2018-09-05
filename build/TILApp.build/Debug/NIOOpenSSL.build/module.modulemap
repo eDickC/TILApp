@@ -1,0 +1,4 @@
+framework module NIOOpenSSL {
+    header "NIOOpenSSL-Swift.h"
+    requires objc
+}

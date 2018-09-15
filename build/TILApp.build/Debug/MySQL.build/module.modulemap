@@ -1,0 +1,4 @@
+framework module MySQL {
+    header "MySQL-Swift.h"
+    requires objc
+}

@@ -1,0 +1,325 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLDropIndex"
+- "MySQLDropIndexBuilder"
+provides-nominal:
+- "5MySQL0A12SQLDropIndexV"
+- "5MySQL0A19SQLDropIndexBuilderC"
+provides-member:
+- ["5MySQL0A12SQLDropIndexV", ""]
+- ["5MySQL0A19SQLDropIndexBuilderC", ""]
+- ["3SQL13SQLConnectionP", ""]
+- ["3SQL13SQLConnectionP", "drop"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Encodable"
+- "MySQLDropIndex"
+- "MySQLDropIndexBuilder"
+- "MySQLIdentifier"
+- "MySQLQuery"
+- "MySQLTable"
+- "MySQLTableIdentifier"
+- "SQLConnection"
+- "SQLDropIndex"
+- "SQLQueryBuilder"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["11DatabaseKit0A9QueryableP", "MySQLDropIndex"]
+- ["11DatabaseKit0A9QueryableP", "MySQLDropIndexBuilder"]
+- ["11DatabaseKit0A9QueryableP", "MySQLIdentifier"]
+- ["11DatabaseKit0A9QueryableP", "MySQLQuery"]
+- ["11DatabaseKit0A9QueryableP", "MySQLTable"]
+- ["11DatabaseKit0A9QueryableP", "Query"]
+- ["11DatabaseKit0A9QueryableP", "Self"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dropIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "serialize"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "table"]
+- !private ["s26ExpressibleByStringLiteralP", "dropIndex"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "serialize"]
+- !private ["s26ExpressibleByStringLiteralP", "table"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dropIndex"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "serialize"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "table"]
+- !private ["3SQL25GenericSQLTableIdentifierV", "serialize"]
+- !private ["3SQL25GenericSQLTableIdentifierV", "table"]
+- !private ["s8HashableP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- ["5MySQL0A12SQLDropIndexV", "Encodable"]
+- ["5MySQL0A12SQLDropIndexV", "MySQLIdentifier"]
+- ["5MySQL0A12SQLDropIndexV", "MySQLTableIdentifier"]
+- ["5MySQL0A12SQLDropIndexV", "String"]
+- ["5MySQL0A12SQLDropIndexV", "deinit"]
+- ["5MySQL0A12SQLDropIndexV", "identifier"]
+- ["5MySQL0A12SQLDropIndexV", "init"]
+- ["5MySQL0A12SQLDropIndexV", "serialize"]
+- ["5MySQL0A12SQLDropIndexV", "table"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "Connection"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "MySQLDropIndex"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "MySQLQuery"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "_Default_Connection"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "connection"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "deinit"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "dropIndex"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "init"]
+- ["5MySQL0A19SQLDropIndexBuilderC", "query"]
+- !private ["5MySQL0A13SQLIdentifierV", "deinit"]
+- !private ["5MySQL0A13SQLIdentifierV", "serialize"]
+- !private ["5MySQL0A8SQLQueryO", "deinit"]
+- !private ["5MySQL0A8SQLQueryO", "dropIndex"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["3SQL13SQLConnectionP", "MySQLDropIndex"]
+- ["3SQL13SQLConnectionP", "MySQLDropIndexBuilder"]
+- ["3SQL13SQLConnectionP", "MySQLIdentifier"]
+- ["3SQL13SQLConnectionP", "MySQLQuery"]
+- ["3SQL13SQLConnectionP", "MySQLTable"]
+- ["3SQL13SQLConnectionP", "Query"]
+- ["3SQL13SQLConnectionP", "Self"]
+- ["3SQL13SQLConnectionP", "drop"]
+- ["3SQL12SQLDropIndexP", ""]
+- !private ["3SQL12SQLDropIndexP", "identifier"]
+- !private ["3SQL12SQLDropIndexP", "init"]
+- ["3SQL12SQLDropIndexP", "serialize"]
+- !private ["3SQL12SQLDropIndexP", "table"]
+- !private ["3SQL13SQLIdentifierP", "serialize"]
+- !private ["3SQL8SQLQueryP", "dropIndex"]
+- ["3SQL15SQLQueryBuilderP", "Connection"]
+- ["3SQL15SQLQueryBuilderP", ""]
+- ["3SQL15SQLQueryBuilderP", "_Default_Connection"]
+- ["3SQL15SQLQueryBuilderP", "connection"]
+- !private ["3SQL15SQLQueryBuilderP", "dropIndex"]
+- !private ["3SQL15SQLQueryBuilderP", "init"]
+- ["3SQL15SQLQueryBuilderP", "query"]
+- ["3SQL15SQLSerializableP", ""]
+- !private ["3SQL15SQLSerializableP", "dropIndex"]
+- !private ["3SQL15SQLSerializableP", "identifier"]
+- !private ["3SQL15SQLSerializableP", "init"]
+- ["3SQL15SQLSerializableP", "serialize"]
+- !private ["3SQL15SQLSerializableP", "table"]
+- !private ["3SQL18SQLTableIdentifierP", "serialize"]
+- !private ["3SQL18SQLTableIdentifierP", "table"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11DatabaseKit0A9QueryableP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "3SQL25GenericSQLTableIdentifierV"
+- !private "s8HashableP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- "5MySQL0A12SQLDropIndexV"
+- "5MySQL0A19SQLDropIndexBuilderC"
+- !private "5MySQL0A13SQLIdentifierV"
+- !private "5MySQL0A8SQLQueryO"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "4Core19ReflectionDecodableP"
+- "3SQL13SQLConnectionP"
+- "3SQL12SQLDropIndexP"
+- !private "3SQL13SQLIdentifierP"
+- !private "3SQL8SQLQueryP"
+- "3SQL15SQLQueryBuilderP"
+- "3SQL15SQLSerializableP"
+- !private "3SQL18SQLTableIdentifierP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ec.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bn.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/err.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslv.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "65c3e09a1be5c09c88589a1d5abdca8b"

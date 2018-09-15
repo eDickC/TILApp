@@ -1,0 +1,4 @@
+framework module WebSocketPackageDescription {
+    header "WebSocketPackageDescription-Swift.h"
+    requires objc
+}

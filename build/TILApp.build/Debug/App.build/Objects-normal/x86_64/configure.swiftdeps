@@ -11,44 +11,82 @@ depends-top-level:
 - !private "EngineRouter"
 - "Environment"
 - !private "ErrorMiddleware"
-- !private "FluentSQLiteProvider"
+- !private "FluentMySQLProvider"
 - !private "MiddlewareConfig"
 - !private "MigrationConfig"
+- !private "MySQLDatabase"
+- !private "MySQLDatabaseConfig"
 - !private "Router"
-- !private "SQLiteDatabase"
 - "Services"
+- !private "StringLiteralType"
 - "configure"
 - !private "routes"
 depends-member:
 - !private ["3App7AcronymC", "deinit"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["5Vapor7ContentP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mysql"]
 - !private ["s23CustomStringConvertibleP", "register"]
-- !private ["s23CustomStringConvertibleP", "sqlite"]
 - !private ["11DatabaseKit0A0P", "init"]
-- !private ["11DatabaseKit0A10IdentifierV", "sqlite"]
+- !private ["11DatabaseKit0A10IdentifierV", "mysql"]
 - !private ["11DatabaseKit15DatabasesConfigV", "add"]
 - !private ["11DatabaseKit15DatabasesConfigV", "init"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
 - !private ["5Vapor12EngineRouterC", "default"]
-- !private ["s9EquatableP", "sqlite"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sqlite"]
-- !private ["s26ExpressibleByStringLiteralP", "sqlite"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sqlite"]
-- !private ["12FluentSQLite0aB8ProviderC", "init"]
-- !private ["s8HashableP", "sqlite"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "mysql"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "mysql"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "mysql"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "mysql"]
+- !private ["11FluentMySQL0aB11SQLProviderC", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "mysql"]
+- !private ["6Fluent2IDP", "init"]
 - !private ["6Fluent14JoinSupportingP", "init"]
 - !private ["11DatabaseKit20KeyedCacheSupportingP", "init"]
 - !private ["11DatabaseKit13LogSupportingP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4HTTP29LosslessHTTPBodyRepresentableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["5Vapor16MiddlewareConfigV", "init"]
 - !private ["5Vapor16MiddlewareConfigV", "use"]
 - !private ["6Fluent15MigrationConfigV", "add"]
 - !private ["6Fluent15MigrationConfigV", "init"]
 - !private ["6Fluent19MigrationSupportingP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["5MySQL0A11SQLDatabaseC", "init"]
+- !private ["5MySQL0A17SQLDatabaseConfigV", "init"]
+- !private ["7Routing9ParameterP", "init"]
+- !private ["7Routing27PathComponentsRepresentableP", "init"]
 - !private ["7Service8ProviderP", "init"]
 - !private ["6Fluent15QuerySupportingP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["5Vapor16RequestDecodableP", "init"]
+- !private ["5Vapor16RequestEncodableP", "init"]
+- !private ["5Vapor17ResponseDecodableP", "init"]
+- !private ["5Vapor17ResponseEncodableP", "init"]
+- !private ["7Routing17RoutableComponentP", "init"]
 - !private ["5Vapor6RouterP", "default"]
 - !private ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "init"]
-- !private ["6SQLite0A8DatabaseC", "init"]
-- !private ["6SQLite0A7StorageO", "memory"]
 - !private ["6Fluent16SchemaSupportingP", "init"]
+- !private ["s8SequenceP", "init"]
 - !private ["7ServiceAAP", "add"]
 - !private ["7ServiceAAP", "default"]
 - !private ["7ServiceAAP", "init"]
@@ -56,43 +94,103 @@ depends-member:
 - !private ["7Service0A4TypeP", "init"]
 - !private ["7Service0A4TypeP", "use"]
 - !private ["7Service8ServicesV", "register"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["11TemplateKit0A17DataRepresentableP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - !private ["6Fluent21TransactionSupportingP", "init"]
+- !private ["14URLEncodedForm0aB15DataConvertibleP", "init"]
+- !private ["4HTTP16URLRepresentableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "3App7AcronymC"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "5Vapor7ContentP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
 - !private "11DatabaseKit0A0P"
 - !private "11DatabaseKit0A10IdentifierV"
 - !private "11DatabaseKit15DatabasesConfigV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
 - !private "5Vapor12EngineRouterC"
 - !private "s9EquatableP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "12FluentSQLite0aB8ProviderC"
+- !private "11FluentMySQL0aB11SQLProviderC"
 - !private "s8HashableP"
+- !private "6Fluent2IDP"
 - !private "6Fluent14JoinSupportingP"
 - !private "11DatabaseKit20KeyedCacheSupportingP"
 - !private "11DatabaseKit13LogSupportingP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "4HTTP29LosslessHTTPBodyRepresentableP"
+- !private "s25LosslessStringConvertibleP"
 - !private "5Vapor16MiddlewareConfigV"
 - !private "6Fluent15MigrationConfigV"
 - !private "6Fluent19MigrationSupportingP"
+- !private "s10MirrorPathP"
+- !private "9Multipart0A15PartConvertibleP"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- !private "5MySQL0A11SQLDatabaseC"
+- !private "5MySQL0A17SQLDatabaseConfigV"
+- !private "7Routing9ParameterP"
+- !private "7Routing27PathComponentsRepresentableP"
 - !private "7Service8ProviderP"
 - !private "6Fluent15QuerySupportingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "4Core19ReflectionDecodableP"
+- !private "5Vapor16RequestDecodableP"
+- !private "5Vapor16RequestEncodableP"
+- !private "5Vapor17ResponseDecodableP"
+- !private "5Vapor17ResponseEncodableP"
+- !private "7Routing17RoutableComponentP"
 - !private "5Vapor6RouterP"
 - !private "9FluentSQL33SQLConstraintIdentifierNormalizerP"
-- !private "6SQLite0A8DatabaseC"
-- !private "6SQLite0A7StorageO"
 - !private "6Fluent16SchemaSupportingP"
+- !private "s8SequenceP"
 - !private "7ServiceAAP"
 - !private "7Service0A4TypeP"
 - !private "7Service8ServicesV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "11TemplateKit0A17DataRepresentableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "6Fluent21TransactionSupportingP"
+- !private "14URLEncodedForm0aB15DataConvertibleP"
+- !private "4HTTP16URLRepresentableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOHTTP1.framework/Modules/NIOHTTP1.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/MySQL.framework/Modules/MySQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentMySQL.framework/Modules/FluentMySQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
@@ -102,8 +200,6 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
-- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQLite.framework/Modules/FluentSQLite.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
@@ -181,24 +277,18 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
 - "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "9da49c68111d76276c3517fd26d7272d"
+interface-hash: "6bb297f0460e68f40170d0d6db6fa6a5"

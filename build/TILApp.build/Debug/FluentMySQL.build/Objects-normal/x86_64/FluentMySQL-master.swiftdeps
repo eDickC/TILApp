@@ -1,0 +1,23 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "d25d1e22df697cc47fe03a0944116af6"
+build_time: [1536611794, 774906000]
+inputs:
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/Exports.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/Fluent+MySQLUpsert.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/FluentMySQLProvider.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/FluentMySQLQuery.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/FluentMySQLSchema.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+JoinSupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+KeyedCacheSupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+LogSupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+MigrationSupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+QuerySupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+SchemaSupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLDatabase+TransactionSupporting.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLLogger.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLModel.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLSerializer.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/MySQLType.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/QueryBuilder+CreateIgnore.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/QueryBuilder+Metadata.swift": [1536611660, 0]
+  "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/fluent-mysql.git--2001824278331443732/Sources/FluentMySQL/SchemaBuilder+Order.swift": [1536611660, 0]

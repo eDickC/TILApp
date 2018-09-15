@@ -1,0 +1,404 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLStatusFlags"
+- "MySQLStatusFlag"
+- "SERVER_STATUS_IN_TRANS"
+- "SERVER_STATUS_AUTOCOMMIT"
+- "SERVER_MORE_RESULTS_EXISTS"
+- "SERVER_STATUS_NO_GOOD_INDEX_USED"
+- "SERVER_STATUS_NO_INDEX_USED"
+- "SERVER_STATUS_CURSOR_EXISTS"
+- "SERVER_STATUS_LAST_ROW_SENT"
+- "SERVER_STATUS_DB_DROPPED"
+- "SERVER_STATUS_NO_BACKSLASH_ESCAPES"
+- "SERVER_STATUS_METADATA_CHANGED"
+- "SERVER_QUERY_WAS_SLOW"
+- "SERVER_PS_OUT_PARAMS"
+- "SERVER_STATUS_IN_TRANS_READONLY"
+- "SERVER_SESSION_STATE_CHANGED"
+provides-nominal:
+- "5MySQL0A14SQLStatusFlagsV"
+provides-member:
+- ["5MySQL0A14SQLStatusFlagsV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "&="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CustomStringConvertible"
+- "ExpressibleByArrayLiteral"
+- "ExpressibleByDictionaryLiteral"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MySQLStatusFlag"
+- "MySQLStatusFlags"
+- "SERVER_MORE_RESULTS_EXISTS"
+- "SERVER_PS_OUT_PARAMS"
+- "SERVER_QUERY_WAS_SLOW"
+- "SERVER_SESSION_STATE_CHANGED"
+- "SERVER_STATUS_AUTOCOMMIT"
+- "SERVER_STATUS_CURSOR_EXISTS"
+- "SERVER_STATUS_DB_DROPPED"
+- "SERVER_STATUS_IN_TRANS"
+- "SERVER_STATUS_IN_TRANS_READONLY"
+- "SERVER_STATUS_LAST_ROW_SENT"
+- "SERVER_STATUS_METADATA_CHANGED"
+- "SERVER_STATUS_NO_BACKSLASH_ESCAPES"
+- "SERVER_STATUS_NO_GOOD_INDEX_USED"
+- "SERVER_STATUS_NO_INDEX_USED"
+- "String"
+- !private "StringLiteralType"
+- "UInt16"
+- !private "|="
+- !private "~"
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- ["s23CustomStringConvertibleP", "ArrayLiteralElement"]
+- ["s23CustomStringConvertibleP", "Key"]
+- !private ["s23CustomStringConvertibleP", "MySQLStatusFlags"]
+- !private ["s23CustomStringConvertibleP", "SERVER_MORE_RESULTS_EXISTS"]
+- !private ["s23CustomStringConvertibleP", "SERVER_PS_OUT_PARAMS"]
+- !private ["s23CustomStringConvertibleP", "SERVER_QUERY_WAS_SLOW"]
+- !private ["s23CustomStringConvertibleP", "SERVER_SESSION_STATE_CHANGED"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_AUTOCOMMIT"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_CURSOR_EXISTS"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_DB_DROPPED"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_IN_TRANS"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_IN_TRANS_READONLY"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_LAST_ROW_SENT"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_METADATA_CHANGED"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_NO_BACKSLASH_ESCAPES"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_NO_GOOD_INDEX_USED"]
+- !private ["s23CustomStringConvertibleP", "SERVER_STATUS_NO_INDEX_USED"]
+- ["s23CustomStringConvertibleP", "Value"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ArrayLiteralElement"]
+- ["s23CustomStringConvertibleP", "_Default_Key"]
+- ["s23CustomStringConvertibleP", "_Default_Value"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "raw"]
+- !private ["s23CustomStringConvertibleP", "set"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "joined"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Key"]
+- !private ["s25ExpressibleByArrayLiteralP", "MySQLStatusFlags"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_MORE_RESULTS_EXISTS"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_PS_OUT_PARAMS"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_QUERY_WAS_SLOW"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_SESSION_STATE_CHANGED"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_AUTOCOMMIT"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_CURSOR_EXISTS"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_DB_DROPPED"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_IN_TRANS"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_IN_TRANS_READONLY"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_LAST_ROW_SENT"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_METADATA_CHANGED"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_NO_BACKSLASH_ESCAPES"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_NO_GOOD_INDEX_USED"]
+- !private ["s25ExpressibleByArrayLiteralP", "SERVER_STATUS_NO_INDEX_USED"]
+- ["s25ExpressibleByArrayLiteralP", "Value"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Key"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Value"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "description"]
+- !private ["s25ExpressibleByArrayLiteralP", "get"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "raw"]
+- !private ["s25ExpressibleByArrayLiteralP", "set"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "ArrayLiteralElement"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "MySQLStatusFlags"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_MORE_RESULTS_EXISTS"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_PS_OUT_PARAMS"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_QUERY_WAS_SLOW"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_SESSION_STATE_CHANGED"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_AUTOCOMMIT"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_CURSOR_EXISTS"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_DB_DROPPED"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_IN_TRANS"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_IN_TRANS_READONLY"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_LAST_ROW_SENT"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_METADATA_CHANGED"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_NO_BACKSLASH_ESCAPES"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_NO_GOOD_INDEX_USED"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "SERVER_STATUS_NO_INDEX_USED"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", ""]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_ArrayLiteralElement"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "description"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "get"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "raw"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "set"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "joined"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- ["5MySQL0A14SQLStatusFlagsV", "ArrayLiteralElement"]
+- ["5MySQL0A14SQLStatusFlagsV", "Bool"]
+- ["5MySQL0A14SQLStatusFlagsV", "Key"]
+- ["5MySQL0A14SQLStatusFlagsV", "MySQLStatusFlag"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "MySQLStatusFlags"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_MORE_RESULTS_EXISTS"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_PS_OUT_PARAMS"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_QUERY_WAS_SLOW"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_SESSION_STATE_CHANGED"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_AUTOCOMMIT"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_CURSOR_EXISTS"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_DB_DROPPED"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_IN_TRANS"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_IN_TRANS_READONLY"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_LAST_ROW_SENT"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_METADATA_CHANGED"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_NO_BACKSLASH_ESCAPES"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_NO_GOOD_INDEX_USED"]
+- !private ["5MySQL0A14SQLStatusFlagsV", "SERVER_STATUS_NO_INDEX_USED"]
+- ["5MySQL0A14SQLStatusFlagsV", "String"]
+- ["5MySQL0A14SQLStatusFlagsV", "Value"]
+- ["5MySQL0A14SQLStatusFlagsV", "_Default_ArrayLiteralElement"]
+- ["5MySQL0A14SQLStatusFlagsV", "_Default_Key"]
+- ["5MySQL0A14SQLStatusFlagsV", "_Default_Value"]
+- ["5MySQL0A14SQLStatusFlagsV", "deinit"]
+- ["5MySQL0A14SQLStatusFlagsV", "description"]
+- ["5MySQL0A14SQLStatusFlagsV", "get"]
+- ["5MySQL0A14SQLStatusFlagsV", "init"]
+- ["5MySQL0A14SQLStatusFlagsV", "raw"]
+- ["5MySQL0A14SQLStatusFlagsV", "set"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- "5MySQL0A14SQLStatusFlagsV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "4Core19ReflectionDecodableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ec.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bn.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/err.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslv.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "058351ffbfc6e26288d12c189443980a"

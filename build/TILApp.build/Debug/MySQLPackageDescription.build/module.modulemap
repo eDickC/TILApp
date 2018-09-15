@@ -1,0 +1,4 @@
+framework module MySQLPackageDescription {
+    header "MySQLPackageDescription-Swift.h"
+    requires objc
+}

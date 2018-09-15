@@ -1,0 +1,4 @@
+framework module HTTPPackageDescription {
+    header "HTTPPackageDescription-Swift.h"
+    requires objc
+}

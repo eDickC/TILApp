@@ -59,6 +59,10 @@ depends-member:
 - !private ["s10MirrorPathP", "init"]
 - !private ["6Fluent5ModelP", "save"]
 - !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["11FluentMySQL0B8SQLModelP", "save"]
+- !private ["5MySQL0A8SQLTableP", "save"]
 - !private ["7Routing9ParameterP", "init"]
 - !private ["7Routing27PathComponentsRepresentableP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
@@ -80,10 +84,6 @@ depends-member:
 - !private ["5Vapor6RouterP", "get"]
 - !private ["5Vapor6RouterP", "post"]
 - !private ["3SQL8SQLTableP", "save"]
-- !private ["6SQLite0A15DataConvertibleP", "init"]
-- !private ["6SQLite0A27DataTypeStaticRepresentableP", "init"]
-- !private ["12FluentSQLite0B5ModelP", "save"]
-- !private ["12FluentSQLite0B5TableP", "save"]
 - !private ["s8SequenceP", "init"]
 - !private ["7ServiceAAP", "get"]
 - !private ["7ServiceAAP", "post"]
@@ -99,8 +99,8 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["11FluentMySQL01_B8SQLModelP", "save"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["12FluentSQLite01_B5ModelP", "save"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "3App7AcronymC"
@@ -143,6 +143,10 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "6Fluent5ModelP"
 - !private "9Multipart0A15PartConvertibleP"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- !private "11FluentMySQL0B8SQLModelP"
+- !private "5MySQL0A8SQLTableP"
 - !private "7Routing9ParameterP"
 - !private "7Routing27PathComponentsRepresentableP"
 - !private "s26RangeReplaceableCollectionP"
@@ -156,10 +160,6 @@ depends-nominal:
 - !private "7Routing17RoutableComponentP"
 - !private "5Vapor6RouterP"
 - !private "3SQL8SQLTableP"
-- !private "6SQLite0A15DataConvertibleP"
-- !private "6SQLite0A27DataTypeStaticRepresentableP"
-- !private "12FluentSQLite0B5ModelP"
-- !private "12FluentSQLite0B5TableP"
 - !private "s8SequenceP"
 - !private "7ServiceAAP"
 - !private "SS"
@@ -174,8 +174,8 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- !private "11FluentMySQL01_B8SQLModelP"
 - !private "s21_ObjectiveCBridgeableP"
-- !private "12FluentSQLite01_B5ModelP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -183,6 +183,8 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOHTTP1.framework/Modules/NIOHTTP1.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/MySQL.framework/Modules/MySQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentMySQL.framework/Modules/FluentMySQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
@@ -192,8 +194,6 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
-- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQLite.framework/Modules/FluentSQLite.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
@@ -271,21 +271,15 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
 - "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"

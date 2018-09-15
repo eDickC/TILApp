@@ -1,0 +1,820 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "5MySQL0A11SQLDatabaseC"
+provides-member:
+- ["5MySQL0A11SQLDatabaseC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyOptionalType"
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "FluentMySQLSchema"
+- "FluentMySQLSchemaStatement"
+- "Future"
+- !private "MySQLAlterTable"
+- !private "MySQLColumnConstraint"
+- "MySQLColumnDefinition"
+- "MySQLColumnIdentifier"
+- "MySQLConnection"
+- !private "MySQLCreateTable"
+- "MySQLDataType"
+- !private "MySQLDataTypeStaticRepresentable"
+- "MySQLDatabase"
+- !private "MySQLDropTable"
+- "MySQLForeignKeyAction"
+- !private "MySQLQuery"
+- "MySQLTableConstraint"
+- !private "SHA1"
+- "SQLConstraintIdentifierNormalizer"
+- "SchemaSupporting"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["4Core15AnyOptionalTypeP", "anyWrappedType"]
+- !private ["4Core15AnyOptionalTypeP", "autoIncrement"]
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- !private ["4Core22AnyReflectionDecodableP", "autoIncrement"]
+- !private ["4Core22AnyReflectionDecodableP", "hexEncodedString"]
+- !private ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["Sa", "append"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["5Async11BasicWorkerP", "query"]
+- !private ["5Async11BasicWorkerP", "raw"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "bigint"]
+- !private ["s23BidirectionalCollectionP", "hexEncodedString"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "int"]
+- !private ["s23BidirectionalCollectionP", "smallint"]
+- !private ["s23BidirectionalCollectionP", "tinyint"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s11ClosedRangeV", "bigint"]
+- !private ["s11ClosedRangeV", "int"]
+- !private ["s11ClosedRangeV", "smallint"]
+- !private ["s11ClosedRangeV", "tinyint"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "bigint"]
+- !private ["s10CollectionP", "hexEncodedString"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "int"]
+- !private ["s10CollectionP", "smallint"]
+- !private ["s10CollectionP", "tinyint"]
+- !private ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "hexEncodedString"]
+- !private ["s20CountableClosedRangeV", "bigint"]
+- !private ["s20CountableClosedRangeV", "int"]
+- !private ["s20CountableClosedRangeV", "smallint"]
+- !private ["s20CountableClosedRangeV", "tinyint"]
+- !private ["s14CountableRangeV", "bigint"]
+- !private ["s14CountableRangeV", "int"]
+- !private ["s14CountableRangeV", "smallint"]
+- !private ["s14CountableRangeV", "tinyint"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "autoIncrement"]
+- !private ["s28CustomDebugStringConvertibleP", "bigint"]
+- !private ["s28CustomDebugStringConvertibleP", "hexEncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "int"]
+- !private ["s28CustomDebugStringConvertibleP", "smallint"]
+- !private ["s28CustomDebugStringConvertibleP", "tinyint"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "autoIncrement"]
+- !private ["s17CustomReflectableP", "bigint"]
+- !private ["s17CustomReflectableP", "hexEncodedString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "int"]
+- !private ["s17CustomReflectableP", "smallint"]
+- !private ["s17CustomReflectableP", "tinyint"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bigint"]
+- !private ["s23CustomStringConvertibleP", "hexEncodedString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "int"]
+- !private ["s23CustomStringConvertibleP", "smallint"]
+- !private ["s23CustomStringConvertibleP", "tinyint"]
+- !private ["10Foundation4DataV", "hexEncodedString"]
+- !private ["11DatabaseKit0A0P", "SHA1"]
+- ["11DatabaseKit0A0P", "Schema"]
+- ["11DatabaseKit0A0P", "SchemaAction"]
+- ["11DatabaseKit0A0P", "SchemaConstraint"]
+- ["11DatabaseKit0A0P", "SchemaField"]
+- ["11DatabaseKit0A0P", "SchemaFieldType"]
+- ["11DatabaseKit0A0P", "SchemaReferenceAction"]
+- ["11DatabaseKit0A0P", "disableReferences"]
+- ["11DatabaseKit0A0P", "enableReferences"]
+- ["11DatabaseKit0A0P", "normalizeSQLConstraintIdentifier"]
+- !private ["11DatabaseKit0A0P", "print"]
+- ["11DatabaseKit0A0P", "schemaActionCreate"]
+- ["11DatabaseKit0A0P", "schemaActionDelete"]
+- ["11DatabaseKit0A0P", "schemaActionUpdate"]
+- ["11DatabaseKit0A0P", "schemaConstraintCreate"]
+- ["11DatabaseKit0A0P", "schemaConstraintDelete"]
+- ["11DatabaseKit0A0P", "schemaCreate"]
+- ["11DatabaseKit0A0P", "schemaExecute"]
+- ["11DatabaseKit0A0P", "schemaField"]
+- ["11DatabaseKit0A0P", "schemaFieldCreate"]
+- ["11DatabaseKit0A0P", "schemaFieldDelete"]
+- ["11DatabaseKit0A0P", "schemaReference"]
+- ["11DatabaseKit0A0P", "schemaUnique"]
+- !private ["11DatabaseKit0A11ConnectableP", "query"]
+- !private ["11DatabaseKit0A11ConnectableP", "raw"]
+- !private ["11DatabaseKit0A10ConnectionP", "query"]
+- !private ["11DatabaseKit0A10ConnectionP", "raw"]
+- !private ["11DatabaseKit0A9QueryableP", "query"]
+- !private ["11DatabaseKit0A9QueryableP", "raw"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "autoIncrement"]
+- !private ["s9DecodableP", "hexEncodedString"]
+- !private ["s9DecodableP", "init"]
+- !private ["6Crypto6DigestC", "hash"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "autoIncrement"]
+- !private ["s9EncodableP", "hexEncodedString"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "transform"]
+- ["s9EquatableP", "_alterTable"]
+- ["s9EquatableP", "_createTable"]
+- ["s9EquatableP", "_dropTable"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "autoIncrement"]
+- ["s9EquatableP", "bigint"]
+- !private ["s9EquatableP", "hexEncodedString"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "int"]
+- !private ["s9EquatableP", "json"]
+- ["s9EquatableP", "smallint"]
+- ["s9EquatableP", "tinyint"]
+- !private ["s9EquatableP", "transform"]
+- !private ["3NIO15EventLoopFutureC", "transform"]
+- !private ["3NIO14EventLoopGroupP", "query"]
+- !private ["3NIO14EventLoopGroupP", "raw"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_alterTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_createTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_dropTable"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "autoIncrement"]
+- !private ["s26ExpressibleByStringLiteralP", "_alterTable"]
+- !private ["s26ExpressibleByStringLiteralP", "_createTable"]
+- !private ["s26ExpressibleByStringLiteralP", "_dropTable"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_alterTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_createTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "_dropTable"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7Service10ExtendableP", "query"]
+- !private ["7Service10ExtendableP", "raw"]
+- !private ["11FluentMySQL0aB9SQLSchemaV", "columnPositions"]
+- !private ["11FluentMySQL0aB9SQLSchemaV", "columns"]
+- !private ["11FluentMySQL0aB9SQLSchemaV", "constraints"]
+- ["11FluentMySQL0aB9SQLSchemaV", "deinit"]
+- !private ["11FluentMySQL0aB9SQLSchemaV", "statement"]
+- !private ["11FluentMySQL0aB9SQLSchemaV", "table"]
+- ["11FluentMySQL0aB18SQLSchemaStatementO", "_alterTable"]
+- ["11FluentMySQL0aB18SQLSchemaStatementO", "_createTable"]
+- ["11FluentMySQL0aB18SQLSchemaStatementO", "_dropTable"]
+- ["11FluentMySQL0aB18SQLSchemaStatementO", "deinit"]
+- !private ["9FluentSQL0A9SQLSchemaP", "columnPositions"]
+- !private ["9FluentSQL0A9SQLSchemaP", "columns"]
+- !private ["9FluentSQL0A9SQLSchemaP", "constraints"]
+- !private ["9FluentSQL0A9SQLSchemaP", "statement"]
+- !private ["9FluentSQL0A9SQLSchemaP", "table"]
+- ["9FluentSQL0A18SQLSchemaStatementP", "_alterTable"]
+- ["9FluentSQL0A18SQLSchemaStatementP", "_createTable"]
+- ["9FluentSQL0A18SQLSchemaStatementP", "_dropTable"]
+- !private ["5Async10FutureTypeP", "transform"]
+- !private ["3SQL26GenericSQLColumnConstraintV", "notNull"]
+- !private ["3SQL26GenericSQLColumnConstraintV", "primaryKey"]
+- !private ["3SQL26GenericSQLColumnDefinitionV", "columnDefinition"]
+- !private ["3SQL21GenericSQLCreateTableV", "columns"]
+- !private ["3SQL21GenericSQLCreateTableV", "createTable"]
+- !private ["3SQL21GenericSQLCreateTableV", "tableConstraints"]
+- !private ["3SQL19GenericSQLDropTableV", "dropTable"]
+- ["s8HashableP", "_alterTable"]
+- ["s8HashableP", "_createTable"]
+- ["s8HashableP", "_dropTable"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "autoIncrement"]
+- !private ["s8HashableP", "hexEncodedString"]
+- !private ["s8HashableP", "init"]
+- !private ["6Fluent2IDP", "init"]
+- !private ["6Fluent14JoinSupportingP", "SHA1"]
+- ["6Fluent14JoinSupportingP", "Schema"]
+- ["6Fluent14JoinSupportingP", "SchemaAction"]
+- ["6Fluent14JoinSupportingP", "SchemaConstraint"]
+- ["6Fluent14JoinSupportingP", "SchemaField"]
+- ["6Fluent14JoinSupportingP", "SchemaFieldType"]
+- ["6Fluent14JoinSupportingP", "SchemaReferenceAction"]
+- ["6Fluent14JoinSupportingP", "disableReferences"]
+- ["6Fluent14JoinSupportingP", "enableReferences"]
+- ["6Fluent14JoinSupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["6Fluent14JoinSupportingP", "print"]
+- ["6Fluent14JoinSupportingP", "schemaActionCreate"]
+- ["6Fluent14JoinSupportingP", "schemaActionDelete"]
+- ["6Fluent14JoinSupportingP", "schemaActionUpdate"]
+- ["6Fluent14JoinSupportingP", "schemaConstraintCreate"]
+- ["6Fluent14JoinSupportingP", "schemaConstraintDelete"]
+- ["6Fluent14JoinSupportingP", "schemaCreate"]
+- ["6Fluent14JoinSupportingP", "schemaExecute"]
+- ["6Fluent14JoinSupportingP", "schemaField"]
+- ["6Fluent14JoinSupportingP", "schemaFieldCreate"]
+- ["6Fluent14JoinSupportingP", "schemaFieldDelete"]
+- ["6Fluent14JoinSupportingP", "schemaReference"]
+- ["6Fluent14JoinSupportingP", "schemaUnique"]
+- !private ["11DatabaseKit20KeyedCacheSupportingP", "SHA1"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "Schema"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaAction"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaConstraint"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaField"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaFieldType"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "SchemaReferenceAction"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "disableReferences"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "enableReferences"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["11DatabaseKit20KeyedCacheSupportingP", "print"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaActionCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaActionDelete"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaActionUpdate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaConstraintCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaConstraintDelete"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaExecute"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaField"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaFieldCreate"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaFieldDelete"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaReference"]
+- ["11DatabaseKit20KeyedCacheSupportingP", "schemaUnique"]
+- !private ["11DatabaseKit13LogSupportingP", "SHA1"]
+- ["11DatabaseKit13LogSupportingP", "Schema"]
+- ["11DatabaseKit13LogSupportingP", "SchemaAction"]
+- ["11DatabaseKit13LogSupportingP", "SchemaConstraint"]
+- ["11DatabaseKit13LogSupportingP", "SchemaField"]
+- ["11DatabaseKit13LogSupportingP", "SchemaFieldType"]
+- ["11DatabaseKit13LogSupportingP", "SchemaReferenceAction"]
+- ["11DatabaseKit13LogSupportingP", "disableReferences"]
+- ["11DatabaseKit13LogSupportingP", "enableReferences"]
+- ["11DatabaseKit13LogSupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["11DatabaseKit13LogSupportingP", "print"]
+- ["11DatabaseKit13LogSupportingP", "schemaActionCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaActionDelete"]
+- ["11DatabaseKit13LogSupportingP", "schemaActionUpdate"]
+- ["11DatabaseKit13LogSupportingP", "schemaConstraintCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaConstraintDelete"]
+- ["11DatabaseKit13LogSupportingP", "schemaCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaExecute"]
+- ["11DatabaseKit13LogSupportingP", "schemaField"]
+- ["11DatabaseKit13LogSupportingP", "schemaFieldCreate"]
+- ["11DatabaseKit13LogSupportingP", "schemaFieldDelete"]
+- ["11DatabaseKit13LogSupportingP", "schemaReference"]
+- ["11DatabaseKit13LogSupportingP", "schemaUnique"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- !private ["4Core23LosslessDataConvertibleP", "hexEncodedString"]
+- !private ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["6Fluent19MigrationSupportingP", "SHA1"]
+- ["6Fluent19MigrationSupportingP", "Schema"]
+- ["6Fluent19MigrationSupportingP", "SchemaAction"]
+- ["6Fluent19MigrationSupportingP", "SchemaConstraint"]
+- ["6Fluent19MigrationSupportingP", "SchemaField"]
+- ["6Fluent19MigrationSupportingP", "SchemaFieldType"]
+- ["6Fluent19MigrationSupportingP", "SchemaReferenceAction"]
+- ["6Fluent19MigrationSupportingP", "disableReferences"]
+- ["6Fluent19MigrationSupportingP", "enableReferences"]
+- ["6Fluent19MigrationSupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["6Fluent19MigrationSupportingP", "print"]
+- ["6Fluent19MigrationSupportingP", "schemaActionCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaActionDelete"]
+- ["6Fluent19MigrationSupportingP", "schemaActionUpdate"]
+- ["6Fluent19MigrationSupportingP", "schemaConstraintCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaConstraintDelete"]
+- ["6Fluent19MigrationSupportingP", "schemaCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaExecute"]
+- ["6Fluent19MigrationSupportingP", "schemaField"]
+- ["6Fluent19MigrationSupportingP", "schemaFieldCreate"]
+- ["6Fluent19MigrationSupportingP", "schemaFieldDelete"]
+- ["6Fluent19MigrationSupportingP", "schemaReference"]
+- ["6Fluent19MigrationSupportingP", "schemaUnique"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "hexEncodedString"]
+- !private ["5MySQL0A13SQLAlterTableV", "alterTable"]
+- !private ["5MySQL0A13SQLAlterTableV", "columnPositions"]
+- !private ["5MySQL0A13SQLAlterTableV", "columns"]
+- !private ["5MySQL0A13SQLAlterTableV", "constraints"]
+- !private ["5MySQL0A13SQLConnectionC", "query"]
+- !private ["5MySQL0A13SQLConnectionC", "raw"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "autoIncrement"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- ["5MySQL0A11SQLDataTypeV", "bigint"]
+- ["5MySQL0A11SQLDataTypeV", "int"]
+- !private ["5MySQL0A11SQLDataTypeV", "json"]
+- ["5MySQL0A11SQLDataTypeV", "smallint"]
+- ["5MySQL0A11SQLDataTypeV", "tinyint"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "mysqlDataType"]
+- !private ["5MySQL0A11SQLDatabaseC", "AnyOptionalType"]
+- ["5MySQL0A11SQLDatabaseC", "Bool"]
+- ["5MySQL0A11SQLDatabaseC", "FluentMySQLSchema"]
+- ["5MySQL0A11SQLDatabaseC", "FluentMySQLSchemaStatement"]
+- ["5MySQL0A11SQLDatabaseC", "Future"]
+- !private ["5MySQL0A11SQLDatabaseC", "MySQLAlterTable"]
+- !private ["5MySQL0A11SQLDatabaseC", "MySQLColumnConstraint"]
+- ["5MySQL0A11SQLDatabaseC", "MySQLColumnDefinition"]
+- ["5MySQL0A11SQLDatabaseC", "MySQLColumnIdentifier"]
+- ["5MySQL0A11SQLDatabaseC", "MySQLConnection"]
+- !private ["5MySQL0A11SQLDatabaseC", "MySQLCreateTable"]
+- ["5MySQL0A11SQLDatabaseC", "MySQLDataType"]
+- !private ["5MySQL0A11SQLDatabaseC", "MySQLDataTypeStaticRepresentable"]
+- !private ["5MySQL0A11SQLDatabaseC", "MySQLDropTable"]
+- ["5MySQL0A11SQLDatabaseC", "MySQLForeignKeyAction"]
+- !private ["5MySQL0A11SQLDatabaseC", "MySQLQuery"]
+- ["5MySQL0A11SQLDatabaseC", "MySQLTableConstraint"]
+- !private ["5MySQL0A11SQLDatabaseC", "SHA1"]
+- ["5MySQL0A11SQLDatabaseC", "Schema"]
+- ["5MySQL0A11SQLDatabaseC", "SchemaAction"]
+- ["5MySQL0A11SQLDatabaseC", "SchemaConstraint"]
+- ["5MySQL0A11SQLDatabaseC", "SchemaField"]
+- ["5MySQL0A11SQLDatabaseC", "SchemaFieldType"]
+- ["5MySQL0A11SQLDatabaseC", "SchemaReferenceAction"]
+- ["5MySQL0A11SQLDatabaseC", "String"]
+- ["5MySQL0A11SQLDatabaseC", "Void"]
+- ["5MySQL0A11SQLDatabaseC", "deinit"]
+- ["5MySQL0A11SQLDatabaseC", "disableReferences"]
+- ["5MySQL0A11SQLDatabaseC", "enableReferences"]
+- ["5MySQL0A11SQLDatabaseC", "normalizeSQLConstraintIdentifier"]
+- !private ["5MySQL0A11SQLDatabaseC", "print"]
+- ["5MySQL0A11SQLDatabaseC", "schemaActionCreate"]
+- ["5MySQL0A11SQLDatabaseC", "schemaActionDelete"]
+- ["5MySQL0A11SQLDatabaseC", "schemaActionUpdate"]
+- ["5MySQL0A11SQLDatabaseC", "schemaConstraintCreate"]
+- ["5MySQL0A11SQLDatabaseC", "schemaConstraintDelete"]
+- ["5MySQL0A11SQLDatabaseC", "schemaCreate"]
+- ["5MySQL0A11SQLDatabaseC", "schemaExecute"]
+- ["5MySQL0A11SQLDatabaseC", "schemaField"]
+- ["5MySQL0A11SQLDatabaseC", "schemaFieldCreate"]
+- ["5MySQL0A11SQLDatabaseC", "schemaFieldDelete"]
+- ["5MySQL0A11SQLDatabaseC", "schemaReference"]
+- ["5MySQL0A11SQLDatabaseC", "schemaUnique"]
+- !private ["5MySQL0A20SQLPrimaryKeyDefaultO", "autoIncrement"]
+- !private ["5MySQL0A8SQLQueryO", "_alterTable"]
+- !private ["5MySQL0A8SQLQueryO", "_createTable"]
+- !private ["5MySQL0A8SQLQueryO", "_dropTable"]
+- !private ["Sq", "autoIncrement"]
+- !private ["4Core12OptionalTypeP", "autoIncrement"]
+- !private ["6Fluent15QuerySupportingP", "SHA1"]
+- ["6Fluent15QuerySupportingP", "Schema"]
+- ["6Fluent15QuerySupportingP", "SchemaAction"]
+- ["6Fluent15QuerySupportingP", "SchemaConstraint"]
+- ["6Fluent15QuerySupportingP", "SchemaField"]
+- ["6Fluent15QuerySupportingP", "SchemaFieldType"]
+- ["6Fluent15QuerySupportingP", "SchemaReferenceAction"]
+- ["6Fluent15QuerySupportingP", "disableReferences"]
+- ["6Fluent15QuerySupportingP", "enableReferences"]
+- ["6Fluent15QuerySupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["6Fluent15QuerySupportingP", "print"]
+- ["6Fluent15QuerySupportingP", "schemaActionCreate"]
+- ["6Fluent15QuerySupportingP", "schemaActionDelete"]
+- ["6Fluent15QuerySupportingP", "schemaActionUpdate"]
+- ["6Fluent15QuerySupportingP", "schemaConstraintCreate"]
+- ["6Fluent15QuerySupportingP", "schemaConstraintDelete"]
+- ["6Fluent15QuerySupportingP", "schemaCreate"]
+- ["6Fluent15QuerySupportingP", "schemaExecute"]
+- ["6Fluent15QuerySupportingP", "schemaField"]
+- ["6Fluent15QuerySupportingP", "schemaFieldCreate"]
+- ["6Fluent15QuerySupportingP", "schemaFieldDelete"]
+- ["6Fluent15QuerySupportingP", "schemaReference"]
+- ["6Fluent15QuerySupportingP", "schemaUnique"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "bigint"]
+- !private ["s22RandomAccessCollectionP", "hexEncodedString"]
+- !private ["s22RandomAccessCollectionP", "int"]
+- !private ["s22RandomAccessCollectionP", "smallint"]
+- !private ["s22RandomAccessCollectionP", "tinyint"]
+- !private ["s5RangeV", "bigint"]
+- !private ["s5RangeV", "int"]
+- !private ["s5RangeV", "smallint"]
+- !private ["s5RangeV", "tinyint"]
+- !private ["s15RangeExpressionP", "bigint"]
+- !private ["s15RangeExpressionP", "int"]
+- !private ["s15RangeExpressionP", "smallint"]
+- !private ["s15RangeExpressionP", "tinyint"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "hexEncodedString"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "hexEncodedString"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- !private ["4Core19ReflectionDecodableP", "autoIncrement"]
+- !private ["4Core19ReflectionDecodableP", "hexEncodedString"]
+- !private ["4Core19ReflectionDecodableP", "init"]
+- !private ["3SQL13SQLAlterTableP", "alterTable"]
+- !private ["3SQL13SQLAlterTableP", "columnPositions"]
+- !private ["3SQL13SQLAlterTableP", "columns"]
+- !private ["3SQL13SQLAlterTableP", "constraints"]
+- !private ["3SQL19SQLColumnConstraintP", "notNull"]
+- !private ["3SQL19SQLColumnConstraintP", "primaryKey"]
+- !private ["3SQL19SQLColumnDefinitionP", "columnDefinition"]
+- !private ["3SQL13SQLConnectionP", "query"]
+- !private ["3SQL13SQLConnectionP", "raw"]
+- !private ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SHA1"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "Schema"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaAction"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaConstraint"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaField"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaFieldType"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "SchemaReferenceAction"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", ""]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "disableReferences"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "enableReferences"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "normalizeSQLConstraintIdentifier"]
+- !private ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "print"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaActionCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaActionDelete"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaActionUpdate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaConstraintCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaConstraintDelete"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaExecute"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaField"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaFieldCreate"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaFieldDelete"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaReference"]
+- ["9FluentSQL33SQLConstraintIdentifierNormalizerP", "schemaUnique"]
+- !private ["3SQL14SQLCreateTableP", "columns"]
+- !private ["3SQL14SQLCreateTableP", "createTable"]
+- !private ["3SQL14SQLCreateTableP", "tableConstraints"]
+- ["3SQL11SQLDataTypeP", "bigint"]
+- ["3SQL11SQLDataTypeP", "int"]
+- !private ["3SQL11SQLDataTypeP", "json"]
+- ["3SQL11SQLDataTypeP", "smallint"]
+- ["3SQL11SQLDataTypeP", "tinyint"]
+- !private ["3SQL12SQLDropTableP", "dropTable"]
+- !private ["3SQL20SQLPrimaryKeyDefaultP", "autoIncrement"]
+- !private ["3SQL8SQLQueryP", "_alterTable"]
+- !private ["3SQL8SQLQueryP", "_createTable"]
+- !private ["3SQL8SQLQueryP", "_dropTable"]
+- !private ["3SQL15SQLQueryBuilderP", "run"]
+- !private ["3SQL15SQLQueryFetcherP", "run"]
+- !private ["3SQL13SQLRawBuilderC", "run"]
+- !private ["3SQL15SQLSerializableP", "_alterTable"]
+- !private ["3SQL15SQLSerializableP", "_createTable"]
+- !private ["3SQL15SQLSerializableP", "_dropTable"]
+- !private ["3SQL15SQLSerializableP", "alterTable"]
+- !private ["3SQL15SQLSerializableP", "autoIncrement"]
+- ["3SQL15SQLSerializableP", "bigint"]
+- !private ["3SQL15SQLSerializableP", "columnDefinition"]
+- !private ["3SQL15SQLSerializableP", "columnPositions"]
+- !private ["3SQL15SQLSerializableP", "columns"]
+- !private ["3SQL15SQLSerializableP", "constraints"]
+- !private ["3SQL15SQLSerializableP", "createTable"]
+- !private ["3SQL15SQLSerializableP", "dropTable"]
+- ["3SQL15SQLSerializableP", "int"]
+- !private ["3SQL15SQLSerializableP", "json"]
+- !private ["3SQL15SQLSerializableP", "notNull"]
+- !private ["3SQL15SQLSerializableP", "primaryKey"]
+- ["3SQL15SQLSerializableP", "smallint"]
+- !private ["3SQL15SQLSerializableP", "tableConstraints"]
+- ["3SQL15SQLSerializableP", "tinyint"]
+- !private ["6Fluent16SchemaSupportingP", "SHA1"]
+- ["6Fluent16SchemaSupportingP", "Schema"]
+- ["6Fluent16SchemaSupportingP", "SchemaAction"]
+- ["6Fluent16SchemaSupportingP", "SchemaConstraint"]
+- ["6Fluent16SchemaSupportingP", "SchemaField"]
+- ["6Fluent16SchemaSupportingP", "SchemaFieldType"]
+- ["6Fluent16SchemaSupportingP", "SchemaReferenceAction"]
+- ["6Fluent16SchemaSupportingP", ""]
+- ["6Fluent16SchemaSupportingP", "disableReferences"]
+- ["6Fluent16SchemaSupportingP", "enableReferences"]
+- ["6Fluent16SchemaSupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["6Fluent16SchemaSupportingP", "print"]
+- ["6Fluent16SchemaSupportingP", "schemaActionCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaActionDelete"]
+- ["6Fluent16SchemaSupportingP", "schemaActionUpdate"]
+- ["6Fluent16SchemaSupportingP", "schemaConstraintCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaConstraintDelete"]
+- ["6Fluent16SchemaSupportingP", "schemaCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaExecute"]
+- ["6Fluent16SchemaSupportingP", "schemaField"]
+- ["6Fluent16SchemaSupportingP", "schemaFieldCreate"]
+- ["6Fluent16SchemaSupportingP", "schemaFieldDelete"]
+- ["6Fluent16SchemaSupportingP", "schemaReference"]
+- ["6Fluent16SchemaSupportingP", "schemaUnique"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "bigint"]
+- !private ["s8SequenceP", "hexEncodedString"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "int"]
+- !private ["s8SequenceP", "smallint"]
+- !private ["s8SequenceP", "tinyint"]
+- !private ["7ServiceAAP", "SHA1"]
+- ["7ServiceAAP", "Schema"]
+- ["7ServiceAAP", "SchemaAction"]
+- ["7ServiceAAP", "SchemaConstraint"]
+- ["7ServiceAAP", "SchemaField"]
+- ["7ServiceAAP", "SchemaFieldType"]
+- ["7ServiceAAP", "SchemaReferenceAction"]
+- ["7ServiceAAP", "disableReferences"]
+- ["7ServiceAAP", "enableReferences"]
+- ["7ServiceAAP", "normalizeSQLConstraintIdentifier"]
+- !private ["7ServiceAAP", "print"]
+- ["7ServiceAAP", "schemaActionCreate"]
+- ["7ServiceAAP", "schemaActionDelete"]
+- ["7ServiceAAP", "schemaActionUpdate"]
+- ["7ServiceAAP", "schemaConstraintCreate"]
+- ["7ServiceAAP", "schemaConstraintDelete"]
+- ["7ServiceAAP", "schemaCreate"]
+- ["7ServiceAAP", "schemaExecute"]
+- ["7ServiceAAP", "schemaField"]
+- ["7ServiceAAP", "schemaFieldCreate"]
+- ["7ServiceAAP", "schemaFieldDelete"]
+- ["7ServiceAAP", "schemaReference"]
+- ["7ServiceAAP", "schemaUnique"]
+- !private ["7Service0A4TypeP", "SHA1"]
+- ["7Service0A4TypeP", "Schema"]
+- ["7Service0A4TypeP", "SchemaAction"]
+- ["7Service0A4TypeP", "SchemaConstraint"]
+- ["7Service0A4TypeP", "SchemaField"]
+- ["7Service0A4TypeP", "SchemaFieldType"]
+- ["7Service0A4TypeP", "SchemaReferenceAction"]
+- ["7Service0A4TypeP", "disableReferences"]
+- ["7Service0A4TypeP", "enableReferences"]
+- ["7Service0A4TypeP", "normalizeSQLConstraintIdentifier"]
+- !private ["7Service0A4TypeP", "print"]
+- ["7Service0A4TypeP", "schemaActionCreate"]
+- ["7Service0A4TypeP", "schemaActionDelete"]
+- ["7Service0A4TypeP", "schemaActionUpdate"]
+- ["7Service0A4TypeP", "schemaConstraintCreate"]
+- ["7Service0A4TypeP", "schemaConstraintDelete"]
+- ["7Service0A4TypeP", "schemaCreate"]
+- ["7Service0A4TypeP", "schemaExecute"]
+- ["7Service0A4TypeP", "schemaField"]
+- ["7Service0A4TypeP", "schemaFieldCreate"]
+- ["7Service0A4TypeP", "schemaFieldDelete"]
+- ["7Service0A4TypeP", "schemaReference"]
+- ["7Service0A4TypeP", "schemaUnique"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6Fluent21TransactionSupportingP", "SHA1"]
+- ["6Fluent21TransactionSupportingP", "Schema"]
+- ["6Fluent21TransactionSupportingP", "SchemaAction"]
+- ["6Fluent21TransactionSupportingP", "SchemaConstraint"]
+- ["6Fluent21TransactionSupportingP", "SchemaField"]
+- ["6Fluent21TransactionSupportingP", "SchemaFieldType"]
+- ["6Fluent21TransactionSupportingP", "SchemaReferenceAction"]
+- ["6Fluent21TransactionSupportingP", "disableReferences"]
+- ["6Fluent21TransactionSupportingP", "enableReferences"]
+- ["6Fluent21TransactionSupportingP", "normalizeSQLConstraintIdentifier"]
+- !private ["6Fluent21TransactionSupportingP", "print"]
+- ["6Fluent21TransactionSupportingP", "schemaActionCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaActionDelete"]
+- ["6Fluent21TransactionSupportingP", "schemaActionUpdate"]
+- ["6Fluent21TransactionSupportingP", "schemaConstraintCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaConstraintDelete"]
+- ["6Fluent21TransactionSupportingP", "schemaCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaExecute"]
+- ["6Fluent21TransactionSupportingP", "schemaField"]
+- ["6Fluent21TransactionSupportingP", "schemaFieldCreate"]
+- ["6Fluent21TransactionSupportingP", "schemaFieldDelete"]
+- ["6Fluent21TransactionSupportingP", "schemaReference"]
+- ["6Fluent21TransactionSupportingP", "schemaUnique"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "autoIncrement"]
+- !private ["s21_ObjectiveCBridgeableP", "hexEncodedString"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "4Core15AnyOptionalTypeP"
+- !private "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- !private "4Core21BasicKeyRepresentableP"
+- !private "5Async11BasicWorkerP"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s11ClosedRangeV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- !private "s20CountableClosedRangeV"
+- !private "s14CountableRangeV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "11DatabaseKit0A0P"
+- !private "11DatabaseKit0A11ConnectableP"
+- !private "11DatabaseKit0A10ConnectionP"
+- !private "11DatabaseKit0A9QueryableP"
+- !private "s9DecodableP"
+- !private "6Crypto6DigestC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "3NIO15EventLoopFutureC"
+- !private "3NIO14EventLoopGroupP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7Service10ExtendableP"
+- "11FluentMySQL0aB9SQLSchemaV"
+- "11FluentMySQL0aB18SQLSchemaStatementO"
+- !private "9FluentSQL0A9SQLSchemaP"
+- "9FluentSQL0A18SQLSchemaStatementP"
+- !private "5Async10FutureTypeP"
+- !private "3SQL26GenericSQLColumnConstraintV"
+- !private "3SQL26GenericSQLColumnDefinitionV"
+- !private "3SQL21GenericSQLCreateTableV"
+- !private "3SQL19GenericSQLDropTableV"
+- "s8HashableP"
+- !private "6Fluent2IDP"
+- "6Fluent14JoinSupportingP"
+- "11DatabaseKit20KeyedCacheSupportingP"
+- "11DatabaseKit13LogSupportingP"
+- !private "4Core23LosslessDataConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- "6Fluent19MigrationSupportingP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "5MySQL0A13SQLAlterTableV"
+- !private "5MySQL0A13SQLConnectionC"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- "5MySQL0A11SQLDataTypeV"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- "5MySQL0A11SQLDatabaseC"
+- !private "5MySQL0A20SQLPrimaryKeyDefaultO"
+- !private "5MySQL0A8SQLQueryO"
+- !private "Sq"
+- !private "4Core12OptionalTypeP"
+- "6Fluent15QuerySupportingP"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "4Core19ReflectionDecodableP"
+- !private "3SQL13SQLAlterTableP"
+- !private "3SQL19SQLColumnConstraintP"
+- !private "3SQL19SQLColumnDefinitionP"
+- !private "3SQL13SQLConnectionP"
+- "9FluentSQL33SQLConstraintIdentifierNormalizerP"
+- !private "3SQL14SQLCreateTableP"
+- "3SQL11SQLDataTypeP"
+- !private "3SQL12SQLDropTableP"
+- !private "3SQL20SQLPrimaryKeyDefaultP"
+- !private "3SQL8SQLQueryP"
+- !private "3SQL15SQLQueryBuilderP"
+- !private "3SQL15SQLQueryFetcherP"
+- !private "3SQL13SQLRawBuilderC"
+- "3SQL15SQLSerializableP"
+- "6Fluent16SchemaSupportingP"
+- !private "s8SequenceP"
+- "7ServiceAAP"
+- "7Service0A4TypeP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "6Fluent21TransactionSupportingP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/MySQL.framework/Modules/MySQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Command.framework/Modules/Command.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Fluent.framework/Modules/Fluent.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ec.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bn.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/err.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslv.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6c955019b3fb431be79c45d27f22c168"

@@ -1,0 +1,688 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLCapabilities"
+provides-nominal:
+- "5MySQL0A15SQLCapabilitiesV"
+provides-member:
+- ["5MySQL0A15SQLCapabilitiesV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "<<"
+- "=="
+- !private ">>"
+- "Array"
+- "AssignmentPrecedence"
+- "CustomStringConvertible"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MySQLCapabilities"
+- "OptionSet"
+- "String"
+- "StringLiteralType"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- !private "numericCast"
+- !private "|="
+depends-member:
+- !private ["4Core22AnyReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core22AnyReflectionDecodableP", "append"]
+- ["4Core22AnyReflectionDecodableP", "init"]
+- !private ["4Core22AnyReflectionDecodableP", "joined"]
+- !private ["Sa", "append"]
+- !private ["Sa", "joined"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "_getBuiltinLogicValue"]
+- !private ["21NIOConcurrencyHelpers15AtomicPrimitiveP", "init"]
+- ["4Core21BasicKeyRepresentableP", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "joined"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s10CollectionP", "append"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "joined"]
+- ["s10ComparableP", "init"]
+- !private ["3NIO20ContiguousCollectionP", "append"]
+- !private ["3NIO20ContiguousCollectionP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- ["s23CustomStringConvertibleP", "ArrayLiteralElement"]
+- ["s23CustomStringConvertibleP", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["s23CustomStringConvertibleP", "CLIENT_COMPRESS"]
+- ["s23CustomStringConvertibleP", "CLIENT_CONNECT_ATTRS"]
+- ["s23CustomStringConvertibleP", "CLIENT_CONNECT_WITH_DB"]
+- ["s23CustomStringConvertibleP", "CLIENT_DEPRECATE_EOF"]
+- ["s23CustomStringConvertibleP", "CLIENT_FOUND_ROWS"]
+- ["s23CustomStringConvertibleP", "CLIENT_IGNORE_SIGPIPE"]
+- ["s23CustomStringConvertibleP", "CLIENT_IGNORE_SPACE"]
+- ["s23CustomStringConvertibleP", "CLIENT_INTERACTIVE"]
+- ["s23CustomStringConvertibleP", "CLIENT_LOCAL_FILES"]
+- ["s23CustomStringConvertibleP", "CLIENT_LONG_FLAG"]
+- ["s23CustomStringConvertibleP", "CLIENT_LONG_PASSWORD"]
+- ["s23CustomStringConvertibleP", "CLIENT_MULTI_RESULTS"]
+- ["s23CustomStringConvertibleP", "CLIENT_MULTI_STATEMENTS"]
+- ["s23CustomStringConvertibleP", "CLIENT_NO_SCHEMA"]
+- ["s23CustomStringConvertibleP", "CLIENT_ODBC"]
+- ["s23CustomStringConvertibleP", "CLIENT_PLUGIN_AUTH"]
+- ["s23CustomStringConvertibleP", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["s23CustomStringConvertibleP", "CLIENT_PROTOCOL_41"]
+- ["s23CustomStringConvertibleP", "CLIENT_PS_MULTI_RESULTS"]
+- ["s23CustomStringConvertibleP", "CLIENT_RESERVED"]
+- ["s23CustomStringConvertibleP", "CLIENT_SECURE_CONNECTION"]
+- ["s23CustomStringConvertibleP", "CLIENT_SESSION_TRACK"]
+- ["s23CustomStringConvertibleP", "CLIENT_SSL"]
+- ["s23CustomStringConvertibleP", "CLIENT_TRANSACTIONS"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "MySQLCapabilities"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UInt64"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_ArrayLiteralElement"]
+- ["s23CustomStringConvertibleP", "_Default_Element"]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "all"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "contains"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "formIntersection"]
+- ["s23CustomStringConvertibleP", "formSymmetricDifference"]
+- ["s23CustomStringConvertibleP", "formUnion"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "insert"]
+- ["s23CustomStringConvertibleP", "intersection"]
+- ["s23CustomStringConvertibleP", "isDisjoint"]
+- ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "isSubset"]
+- ["s23CustomStringConvertibleP", "isSuperset"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "numericCast"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "remove"]
+- ["s23CustomStringConvertibleP", "subtract"]
+- ["s23CustomStringConvertibleP", "subtracting"]
+- ["s23CustomStringConvertibleP", "symmetricDifference"]
+- ["s23CustomStringConvertibleP", "union"]
+- ["s23CustomStringConvertibleP", "update"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "joined"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "joined"]
+- ["s9EquatableP", "ArrayLiteralElement"]
+- ["s9EquatableP", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["s9EquatableP", "CLIENT_COMPRESS"]
+- ["s9EquatableP", "CLIENT_CONNECT_ATTRS"]
+- ["s9EquatableP", "CLIENT_CONNECT_WITH_DB"]
+- ["s9EquatableP", "CLIENT_DEPRECATE_EOF"]
+- ["s9EquatableP", "CLIENT_FOUND_ROWS"]
+- ["s9EquatableP", "CLIENT_IGNORE_SIGPIPE"]
+- ["s9EquatableP", "CLIENT_IGNORE_SPACE"]
+- ["s9EquatableP", "CLIENT_INTERACTIVE"]
+- ["s9EquatableP", "CLIENT_LOCAL_FILES"]
+- ["s9EquatableP", "CLIENT_LONG_FLAG"]
+- ["s9EquatableP", "CLIENT_LONG_PASSWORD"]
+- ["s9EquatableP", "CLIENT_MULTI_RESULTS"]
+- ["s9EquatableP", "CLIENT_MULTI_STATEMENTS"]
+- ["s9EquatableP", "CLIENT_NO_SCHEMA"]
+- ["s9EquatableP", "CLIENT_ODBC"]
+- ["s9EquatableP", "CLIENT_PLUGIN_AUTH"]
+- ["s9EquatableP", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["s9EquatableP", "CLIENT_PROTOCOL_41"]
+- ["s9EquatableP", "CLIENT_PS_MULTI_RESULTS"]
+- ["s9EquatableP", "CLIENT_RESERVED"]
+- ["s9EquatableP", "CLIENT_SECURE_CONNECTION"]
+- ["s9EquatableP", "CLIENT_SESSION_TRACK"]
+- ["s9EquatableP", "CLIENT_SSL"]
+- ["s9EquatableP", "CLIENT_TRANSACTIONS"]
+- ["s9EquatableP", "Element"]
+- ["s9EquatableP", "MySQLCapabilities"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "UInt32"]
+- !private ["s9EquatableP", "UInt64"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_ArrayLiteralElement"]
+- ["s9EquatableP", "_Default_Element"]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "all"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "contains"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "formIntersection"]
+- ["s9EquatableP", "formSymmetricDifference"]
+- ["s9EquatableP", "formUnion"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "insert"]
+- ["s9EquatableP", "intersection"]
+- ["s9EquatableP", "isDisjoint"]
+- ["s9EquatableP", "isEmpty"]
+- ["s9EquatableP", "isSubset"]
+- ["s9EquatableP", "isSuperset"]
+- !private ["s9EquatableP", "joined"]
+- !private ["s9EquatableP", "numericCast"]
+- ["s9EquatableP", "rawValue"]
+- ["s9EquatableP", "remove"]
+- ["s9EquatableP", "subtract"]
+- ["s9EquatableP", "subtracting"]
+- ["s9EquatableP", "symmetricDifference"]
+- ["s9EquatableP", "union"]
+- ["s9EquatableP", "update"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_COMPRESS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_CONNECT_ATTRS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_CONNECT_WITH_DB"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_DEPRECATE_EOF"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_FOUND_ROWS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_IGNORE_SIGPIPE"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_IGNORE_SPACE"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_INTERACTIVE"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_LOCAL_FILES"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_LONG_FLAG"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_LONG_PASSWORD"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_MULTI_RESULTS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_MULTI_STATEMENTS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_NO_SCHEMA"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_ODBC"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_PLUGIN_AUTH"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_PROTOCOL_41"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_PS_MULTI_RESULTS"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_RESERVED"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_SECURE_CONNECTION"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_SESSION_TRACK"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_SSL"]
+- ["s25ExpressibleByArrayLiteralP", "CLIENT_TRANSACTIONS"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "MySQLCapabilities"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "UInt32"]
+- !private ["s25ExpressibleByArrayLiteralP", "UInt64"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "description"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "numericCast"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "append"]
+- ["4Core23LosslessDataConvertibleP", "init"]
+- !private ["4Core23LosslessDataConvertibleP", "joined"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "joined"]
+- ["5MySQL0A15SQLCapabilitiesV", "ArrayLiteralElement"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_COMPRESS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_CONNECT_ATTRS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_CONNECT_WITH_DB"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_DEPRECATE_EOF"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_FOUND_ROWS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_IGNORE_SIGPIPE"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_IGNORE_SPACE"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_INTERACTIVE"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_LOCAL_FILES"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_LONG_FLAG"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_LONG_PASSWORD"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_MULTI_RESULTS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_MULTI_STATEMENTS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_NO_SCHEMA"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_ODBC"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_PLUGIN_AUTH"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_PROTOCOL_41"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_PS_MULTI_RESULTS"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_RESERVED"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_SECURE_CONNECTION"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_SESSION_TRACK"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_SSL"]
+- ["5MySQL0A15SQLCapabilitiesV", "CLIENT_TRANSACTIONS"]
+- ["5MySQL0A15SQLCapabilitiesV", "Element"]
+- ["5MySQL0A15SQLCapabilitiesV", "MARIADB_CLIENT_COM_MULTI"]
+- ["5MySQL0A15SQLCapabilitiesV", "MARIADB_CLIENT_PROGRESS"]
+- ["5MySQL0A15SQLCapabilitiesV", "MARIADB_CLIENT_STMT_BULK_OPERATIONS"]
+- ["5MySQL0A15SQLCapabilitiesV", "MySQLCapabilities"]
+- ["5MySQL0A15SQLCapabilitiesV", "RawValue"]
+- ["5MySQL0A15SQLCapabilitiesV", "String"]
+- ["5MySQL0A15SQLCapabilitiesV", "UInt16"]
+- ["5MySQL0A15SQLCapabilitiesV", "UInt32"]
+- ["5MySQL0A15SQLCapabilitiesV", "UInt64"]
+- ["5MySQL0A15SQLCapabilitiesV", "_Default_ArrayLiteralElement"]
+- ["5MySQL0A15SQLCapabilitiesV", "_Default_Element"]
+- ["5MySQL0A15SQLCapabilitiesV", "_Default_RawValue"]
+- ["5MySQL0A15SQLCapabilitiesV", "all"]
+- ["5MySQL0A15SQLCapabilitiesV", "contains"]
+- ["5MySQL0A15SQLCapabilitiesV", "default"]
+- ["5MySQL0A15SQLCapabilitiesV", "deinit"]
+- ["5MySQL0A15SQLCapabilitiesV", "description"]
+- ["5MySQL0A15SQLCapabilitiesV", "formIntersection"]
+- ["5MySQL0A15SQLCapabilitiesV", "formSymmetricDifference"]
+- ["5MySQL0A15SQLCapabilitiesV", "formUnion"]
+- ["5MySQL0A15SQLCapabilitiesV", "general"]
+- ["5MySQL0A15SQLCapabilitiesV", "init"]
+- ["5MySQL0A15SQLCapabilitiesV", "insert"]
+- ["5MySQL0A15SQLCapabilitiesV", "intersection"]
+- ["5MySQL0A15SQLCapabilitiesV", "isDisjoint"]
+- ["5MySQL0A15SQLCapabilitiesV", "isEmpty"]
+- ["5MySQL0A15SQLCapabilitiesV", "isSubset"]
+- ["5MySQL0A15SQLCapabilitiesV", "isSuperset"]
+- ["5MySQL0A15SQLCapabilitiesV", "mariaDBSpecific"]
+- !private ["5MySQL0A15SQLCapabilitiesV", "numericCast"]
+- ["5MySQL0A15SQLCapabilitiesV", "rawValue"]
+- ["5MySQL0A15SQLCapabilitiesV", "remove"]
+- ["5MySQL0A15SQLCapabilitiesV", "subtract"]
+- ["5MySQL0A15SQLCapabilitiesV", "subtracting"]
+- ["5MySQL0A15SQLCapabilitiesV", "symmetricDifference"]
+- ["5MySQL0A15SQLCapabilitiesV", "union"]
+- ["5MySQL0A15SQLCapabilitiesV", "update"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- !private ["s7NumericP", "init"]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["s9OptionSetP", "CLIENT_COMPRESS"]
+- ["s9OptionSetP", "CLIENT_CONNECT_ATTRS"]
+- ["s9OptionSetP", "CLIENT_CONNECT_WITH_DB"]
+- ["s9OptionSetP", "CLIENT_DEPRECATE_EOF"]
+- ["s9OptionSetP", "CLIENT_FOUND_ROWS"]
+- ["s9OptionSetP", "CLIENT_IGNORE_SIGPIPE"]
+- ["s9OptionSetP", "CLIENT_IGNORE_SPACE"]
+- ["s9OptionSetP", "CLIENT_INTERACTIVE"]
+- ["s9OptionSetP", "CLIENT_LOCAL_FILES"]
+- ["s9OptionSetP", "CLIENT_LONG_FLAG"]
+- ["s9OptionSetP", "CLIENT_LONG_PASSWORD"]
+- ["s9OptionSetP", "CLIENT_MULTI_RESULTS"]
+- ["s9OptionSetP", "CLIENT_MULTI_STATEMENTS"]
+- ["s9OptionSetP", "CLIENT_NO_SCHEMA"]
+- ["s9OptionSetP", "CLIENT_ODBC"]
+- ["s9OptionSetP", "CLIENT_PLUGIN_AUTH"]
+- ["s9OptionSetP", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["s9OptionSetP", "CLIENT_PROTOCOL_41"]
+- ["s9OptionSetP", "CLIENT_PS_MULTI_RESULTS"]
+- ["s9OptionSetP", "CLIENT_RESERVED"]
+- ["s9OptionSetP", "CLIENT_SECURE_CONNECTION"]
+- ["s9OptionSetP", "CLIENT_SESSION_TRACK"]
+- ["s9OptionSetP", "CLIENT_SSL"]
+- ["s9OptionSetP", "CLIENT_TRANSACTIONS"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "MySQLCapabilities"]
+- ["s9OptionSetP", "RawValue"]
+- !private ["s9OptionSetP", "UInt32"]
+- !private ["s9OptionSetP", "UInt64"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- !private ["s9OptionSetP", "all"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "description"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- !private ["s9OptionSetP", "numericCast"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "joined"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "joined"]
+- ["s16RawRepresentableP", "ArrayLiteralElement"]
+- ["s16RawRepresentableP", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["s16RawRepresentableP", "CLIENT_COMPRESS"]
+- ["s16RawRepresentableP", "CLIENT_CONNECT_ATTRS"]
+- ["s16RawRepresentableP", "CLIENT_CONNECT_WITH_DB"]
+- ["s16RawRepresentableP", "CLIENT_DEPRECATE_EOF"]
+- ["s16RawRepresentableP", "CLIENT_FOUND_ROWS"]
+- ["s16RawRepresentableP", "CLIENT_IGNORE_SIGPIPE"]
+- ["s16RawRepresentableP", "CLIENT_IGNORE_SPACE"]
+- ["s16RawRepresentableP", "CLIENT_INTERACTIVE"]
+- ["s16RawRepresentableP", "CLIENT_LOCAL_FILES"]
+- ["s16RawRepresentableP", "CLIENT_LONG_FLAG"]
+- ["s16RawRepresentableP", "CLIENT_LONG_PASSWORD"]
+- ["s16RawRepresentableP", "CLIENT_MULTI_RESULTS"]
+- ["s16RawRepresentableP", "CLIENT_MULTI_STATEMENTS"]
+- ["s16RawRepresentableP", "CLIENT_NO_SCHEMA"]
+- ["s16RawRepresentableP", "CLIENT_ODBC"]
+- ["s16RawRepresentableP", "CLIENT_PLUGIN_AUTH"]
+- ["s16RawRepresentableP", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["s16RawRepresentableP", "CLIENT_PROTOCOL_41"]
+- ["s16RawRepresentableP", "CLIENT_PS_MULTI_RESULTS"]
+- ["s16RawRepresentableP", "CLIENT_RESERVED"]
+- ["s16RawRepresentableP", "CLIENT_SECURE_CONNECTION"]
+- ["s16RawRepresentableP", "CLIENT_SESSION_TRACK"]
+- ["s16RawRepresentableP", "CLIENT_SSL"]
+- ["s16RawRepresentableP", "CLIENT_TRANSACTIONS"]
+- ["s16RawRepresentableP", "Element"]
+- ["s16RawRepresentableP", "MySQLCapabilities"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "UInt32"]
+- !private ["s16RawRepresentableP", "UInt64"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_ArrayLiteralElement"]
+- ["s16RawRepresentableP", "_Default_Element"]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "all"]
+- ["s16RawRepresentableP", "contains"]
+- ["s16RawRepresentableP", "description"]
+- ["s16RawRepresentableP", "formIntersection"]
+- ["s16RawRepresentableP", "formSymmetricDifference"]
+- ["s16RawRepresentableP", "formUnion"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "insert"]
+- ["s16RawRepresentableP", "intersection"]
+- ["s16RawRepresentableP", "isDisjoint"]
+- ["s16RawRepresentableP", "isEmpty"]
+- ["s16RawRepresentableP", "isSubset"]
+- ["s16RawRepresentableP", "isSuperset"]
+- !private ["s16RawRepresentableP", "numericCast"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s16RawRepresentableP", "remove"]
+- ["s16RawRepresentableP", "subtract"]
+- ["s16RawRepresentableP", "subtracting"]
+- ["s16RawRepresentableP", "symmetricDifference"]
+- ["s16RawRepresentableP", "union"]
+- ["s16RawRepresentableP", "update"]
+- !private ["4Core19ReflectionDecodableP", "_getBuiltinLogicValue"]
+- !private ["4Core19ReflectionDecodableP", "append"]
+- ["4Core19ReflectionDecodableP", "init"]
+- !private ["4Core19ReflectionDecodableP", "joined"]
+- !private ["s8SequenceP", "append"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "joined"]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "CLIENT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["s10SetAlgebraP", "CLIENT_COMPRESS"]
+- ["s10SetAlgebraP", "CLIENT_CONNECT_ATTRS"]
+- ["s10SetAlgebraP", "CLIENT_CONNECT_WITH_DB"]
+- ["s10SetAlgebraP", "CLIENT_DEPRECATE_EOF"]
+- ["s10SetAlgebraP", "CLIENT_FOUND_ROWS"]
+- ["s10SetAlgebraP", "CLIENT_IGNORE_SIGPIPE"]
+- ["s10SetAlgebraP", "CLIENT_IGNORE_SPACE"]
+- ["s10SetAlgebraP", "CLIENT_INTERACTIVE"]
+- ["s10SetAlgebraP", "CLIENT_LOCAL_FILES"]
+- ["s10SetAlgebraP", "CLIENT_LONG_FLAG"]
+- ["s10SetAlgebraP", "CLIENT_LONG_PASSWORD"]
+- ["s10SetAlgebraP", "CLIENT_MULTI_RESULTS"]
+- ["s10SetAlgebraP", "CLIENT_MULTI_STATEMENTS"]
+- ["s10SetAlgebraP", "CLIENT_NO_SCHEMA"]
+- ["s10SetAlgebraP", "CLIENT_ODBC"]
+- ["s10SetAlgebraP", "CLIENT_PLUGIN_AUTH"]
+- ["s10SetAlgebraP", "CLIENT_PLUGIN_AUTH_LENENC_CLIENT_DATA"]
+- ["s10SetAlgebraP", "CLIENT_PROTOCOL_41"]
+- ["s10SetAlgebraP", "CLIENT_PS_MULTI_RESULTS"]
+- ["s10SetAlgebraP", "CLIENT_RESERVED"]
+- ["s10SetAlgebraP", "CLIENT_SECURE_CONNECTION"]
+- ["s10SetAlgebraP", "CLIENT_SESSION_TRACK"]
+- ["s10SetAlgebraP", "CLIENT_SSL"]
+- ["s10SetAlgebraP", "CLIENT_TRANSACTIONS"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "MySQLCapabilities"]
+- ["s10SetAlgebraP", "RawValue"]
+- !private ["s10SetAlgebraP", "UInt32"]
+- !private ["s10SetAlgebraP", "UInt64"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- !private ["s10SetAlgebraP", "all"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "description"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- !private ["s10SetAlgebraP", "numericCast"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "4Core22AnyReflectionDecodableP"
+- !private "Sa"
+- !private "21NIOConcurrencyHelpers15AtomicPrimitiveP"
+- "4Core21BasicKeyRepresentableP"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "4Core23LosslessDataConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "5MySQL0A15SQLCapabilitiesV"
+- "5MySQL0A18SQLDataConvertibleP"
+- "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- !private "s7NumericP"
+- "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "4Core19ReflectionDecodableP"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "s6UInt64V"
+- !private "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOTLS.framework/Modules/NIOTLS.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Async.framework/Modules/Async.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/COperatingSystem.framework/Modules/COperatingSystem.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Random.framework/Modules/Random.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Crypto.framework/Modules/Crypto.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOConcurrencyHelpers.framework/Modules/NIOConcurrencyHelpers.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Bits.framework/Modules/Bits.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOFoundationCompat.framework/Modules/NIOFoundationCompat.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/DatabaseKit.framework/Modules/DatabaseKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/asn1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/tls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dtls1.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs12.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem2.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl23.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509v3.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/md5.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pkcs7.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/sha.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rsa.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/obj_mac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/hmac.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ec.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/rand.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/conf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslconf.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/dh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ecdh.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/lhash.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/stack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/safestack.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ssl.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl.git-1370587408992578247/Sources/CNIOOpenSSL/include/c_nio_openssl.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/pem.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bn.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIODarwin/include/c_nio_darwin.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/bio.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/crypto.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/srtp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/evp.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/ossl_typ.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/buffer.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/err.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOAtomics/include/c-atomics.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslfeatures.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/objects.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/opensslv.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
+- "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "656e3e386ed722b62a0be2f95aa8ee4e"

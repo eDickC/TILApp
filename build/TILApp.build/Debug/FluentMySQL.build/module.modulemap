@@ -1,0 +1,4 @@
+framework module FluentMySQL {
+    header "FluentMySQL-Swift.h"
+    requires objc
+}

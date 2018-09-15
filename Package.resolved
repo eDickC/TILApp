@@ -47,12 +47,12 @@
         }
       },
       {
-        "package": "FluentSQLite",
-        "repositoryURL": "https://github.com/vapor/fluent-sqlite.git",
+        "package": "FluentMySQL",
+        "repositoryURL": "https://github.com/vapor/fluent-mysql.git",
         "state": {
           "branch": null,
-          "revision": "c32f5bda84bf4ea691d19afe183d40044f579e11",
-          "version": "3.0.0"
+          "revision": "2e2f6ea6a97d0b352cf55e6ec289dc1276a6b31a",
+          "version": "3.0.1"
         }
       },
       {
@@ -70,6 +70,15 @@
         "state": {
           "branch": null,
           "revision": "e57007c23a52b68e44ebdfc70cbe882a7c4f1ec3",
+          "version": "3.0.2"
+        }
+      },
+      {
+        "package": "MySQL",
+        "repositoryURL": "https://github.com/vapor/mysql.git",
+        "state": {
+          "branch": null,
+          "revision": "448f1ca28b3ea0f64a627bec22e5b0945d31b9f4",
           "version": "3.0.2"
         }
       },
@@ -98,15 +107,6 @@
           "branch": null,
           "revision": "bfbaa048f9e655218611b65da470efa7deb16616",
           "version": "2.0.2"
-        }
-      },
-      {
-        "package": "SQLite",
-        "repositoryURL": "https://github.com/vapor/sqlite.git",
-        "state": {
-          "branch": null,
-          "revision": "635ad49b2d6395b63462abffcce58ee38be1e4cc",
-          "version": "3.0.0"
         }
       },
       {

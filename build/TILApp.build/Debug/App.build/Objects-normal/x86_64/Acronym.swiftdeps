@@ -14,7 +14,7 @@ depends-top-level:
 - "Content"
 - "Int"
 - "Migration"
-- "SQLiteModel"
+- "MySQLModel"
 - "String"
 - !private "StringLiteralType"
 - !private "~="
@@ -487,6 +487,88 @@ depends-member:
 - ["6Fluent5ModelP", "willSoftDelete"]
 - ["6Fluent5ModelP", "willUpdate"]
 - !private ["9Multipart0A15PartConvertibleP", "init"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "_getBuiltinLogicValue"]
+- !private ["5MySQL0A18SQLDataConvertibleP", "init"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
+- !private ["5MySQL0A30SQLDataTypeStaticRepresentableP", "init"]
+- ["11FluentMySQL0B8SQLModelP", "Database"]
+- ["11FluentMySQL0B8SQLModelP", "ID"]
+- ["11FluentMySQL0B8SQLModelP", "IDKey"]
+- ["11FluentMySQL0B8SQLModelP", ""]
+- ["11FluentMySQL0B8SQLModelP", "_Default_Database"]
+- ["11FluentMySQL0B8SQLModelP", "_Default_ID"]
+- ["11FluentMySQL0B8SQLModelP", "anyReflectProperty"]
+- ["11FluentMySQL0B8SQLModelP", "createdAtKey"]
+- ["11FluentMySQL0B8SQLModelP", "decode"]
+- ["11FluentMySQL0B8SQLModelP", "defaultContentType"]
+- ["11FluentMySQL0B8SQLModelP", "deletedAtKey"]
+- ["11FluentMySQL0B8SQLModelP", "didCreate"]
+- ["11FluentMySQL0B8SQLModelP", "didDelete"]
+- ["11FluentMySQL0B8SQLModelP", "didRestore"]
+- ["11FluentMySQL0B8SQLModelP", "didSoftDelete"]
+- ["11FluentMySQL0B8SQLModelP", "didUpdate"]
+- ["11FluentMySQL0B8SQLModelP", "encode"]
+- ["11FluentMySQL0B8SQLModelP", "entity"]
+- ["11FluentMySQL0B8SQLModelP", "id"]
+- ["11FluentMySQL0B8SQLModelP", "idKey"]
+- ["11FluentMySQL0B8SQLModelP", "init"]
+- !private ["11FluentMySQL0B8SQLModelP", "long"]
+- ["11FluentMySQL0B8SQLModelP", "migrationName"]
+- ["11FluentMySQL0B8SQLModelP", "migrationPrepare"]
+- ["11FluentMySQL0B8SQLModelP", "migrationRevert"]
+- ["11FluentMySQL0B8SQLModelP", "name"]
+- ["11FluentMySQL0B8SQLModelP", "prepare"]
+- ["11FluentMySQL0B8SQLModelP", "reflectProperties"]
+- ["11FluentMySQL0B8SQLModelP", "reflectProperty"]
+- ["11FluentMySQL0B8SQLModelP", "revert"]
+- !private ["11FluentMySQL0B8SQLModelP", "short"]
+- ["11FluentMySQL0B8SQLModelP", "sqlTableIdentifierString"]
+- ["11FluentMySQL0B8SQLModelP", "updatedAtKey"]
+- ["11FluentMySQL0B8SQLModelP", "willCreate"]
+- ["11FluentMySQL0B8SQLModelP", "willDelete"]
+- ["11FluentMySQL0B8SQLModelP", "willRead"]
+- ["11FluentMySQL0B8SQLModelP", "willRestore"]
+- ["11FluentMySQL0B8SQLModelP", "willSoftDelete"]
+- ["11FluentMySQL0B8SQLModelP", "willUpdate"]
+- ["5MySQL0A8SQLTableP", "Database"]
+- ["5MySQL0A8SQLTableP", "ID"]
+- ["5MySQL0A8SQLTableP", "IDKey"]
+- ["5MySQL0A8SQLTableP", ""]
+- ["5MySQL0A8SQLTableP", "_Default_Database"]
+- ["5MySQL0A8SQLTableP", "_Default_ID"]
+- ["5MySQL0A8SQLTableP", "anyReflectProperty"]
+- ["5MySQL0A8SQLTableP", "createdAtKey"]
+- ["5MySQL0A8SQLTableP", "decode"]
+- ["5MySQL0A8SQLTableP", "defaultContentType"]
+- ["5MySQL0A8SQLTableP", "deletedAtKey"]
+- ["5MySQL0A8SQLTableP", "didCreate"]
+- ["5MySQL0A8SQLTableP", "didDelete"]
+- ["5MySQL0A8SQLTableP", "didRestore"]
+- ["5MySQL0A8SQLTableP", "didSoftDelete"]
+- ["5MySQL0A8SQLTableP", "didUpdate"]
+- ["5MySQL0A8SQLTableP", "encode"]
+- ["5MySQL0A8SQLTableP", "entity"]
+- ["5MySQL0A8SQLTableP", "id"]
+- ["5MySQL0A8SQLTableP", "idKey"]
+- ["5MySQL0A8SQLTableP", "init"]
+- !private ["5MySQL0A8SQLTableP", "long"]
+- ["5MySQL0A8SQLTableP", "migrationName"]
+- ["5MySQL0A8SQLTableP", "migrationPrepare"]
+- ["5MySQL0A8SQLTableP", "migrationRevert"]
+- ["5MySQL0A8SQLTableP", "name"]
+- ["5MySQL0A8SQLTableP", "prepare"]
+- ["5MySQL0A8SQLTableP", "reflectProperties"]
+- ["5MySQL0A8SQLTableP", "reflectProperty"]
+- ["5MySQL0A8SQLTableP", "revert"]
+- !private ["5MySQL0A8SQLTableP", "short"]
+- ["5MySQL0A8SQLTableP", "sqlTableIdentifierString"]
+- ["5MySQL0A8SQLTableP", "updatedAtKey"]
+- ["5MySQL0A8SQLTableP", "willCreate"]
+- ["5MySQL0A8SQLTableP", "willDelete"]
+- ["5MySQL0A8SQLTableP", "willRead"]
+- ["5MySQL0A8SQLTableP", "willRestore"]
+- ["5MySQL0A8SQLTableP", "willSoftDelete"]
+- ["5MySQL0A8SQLTableP", "willUpdate"]
 - !private ["7Routing9ParameterP", "init"]
 - !private ["7Routing27PathComponentsRepresentableP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
@@ -727,88 +809,6 @@ depends-member:
 - ["3SQL8SQLTableP", "willRestore"]
 - ["3SQL8SQLTableP", "willSoftDelete"]
 - ["3SQL8SQLTableP", "willUpdate"]
-- !private ["6SQLite0A15DataConvertibleP", "_getBuiltinLogicValue"]
-- !private ["6SQLite0A15DataConvertibleP", "init"]
-- !private ["6SQLite0A27DataTypeStaticRepresentableP", "_getBuiltinLogicValue"]
-- !private ["6SQLite0A27DataTypeStaticRepresentableP", "init"]
-- ["12FluentSQLite0B5ModelP", "Database"]
-- ["12FluentSQLite0B5ModelP", "ID"]
-- ["12FluentSQLite0B5ModelP", "IDKey"]
-- ["12FluentSQLite0B5ModelP", ""]
-- ["12FluentSQLite0B5ModelP", "_Default_Database"]
-- ["12FluentSQLite0B5ModelP", "_Default_ID"]
-- ["12FluentSQLite0B5ModelP", "anyReflectProperty"]
-- ["12FluentSQLite0B5ModelP", "createdAtKey"]
-- ["12FluentSQLite0B5ModelP", "decode"]
-- ["12FluentSQLite0B5ModelP", "defaultContentType"]
-- ["12FluentSQLite0B5ModelP", "deletedAtKey"]
-- ["12FluentSQLite0B5ModelP", "didCreate"]
-- ["12FluentSQLite0B5ModelP", "didDelete"]
-- ["12FluentSQLite0B5ModelP", "didRestore"]
-- ["12FluentSQLite0B5ModelP", "didSoftDelete"]
-- ["12FluentSQLite0B5ModelP", "didUpdate"]
-- ["12FluentSQLite0B5ModelP", "encode"]
-- ["12FluentSQLite0B5ModelP", "entity"]
-- ["12FluentSQLite0B5ModelP", "id"]
-- ["12FluentSQLite0B5ModelP", "idKey"]
-- ["12FluentSQLite0B5ModelP", "init"]
-- !private ["12FluentSQLite0B5ModelP", "long"]
-- ["12FluentSQLite0B5ModelP", "migrationName"]
-- ["12FluentSQLite0B5ModelP", "migrationPrepare"]
-- ["12FluentSQLite0B5ModelP", "migrationRevert"]
-- ["12FluentSQLite0B5ModelP", "name"]
-- ["12FluentSQLite0B5ModelP", "prepare"]
-- ["12FluentSQLite0B5ModelP", "reflectProperties"]
-- ["12FluentSQLite0B5ModelP", "reflectProperty"]
-- ["12FluentSQLite0B5ModelP", "revert"]
-- !private ["12FluentSQLite0B5ModelP", "short"]
-- ["12FluentSQLite0B5ModelP", "sqlTableIdentifierString"]
-- ["12FluentSQLite0B5ModelP", "updatedAtKey"]
-- ["12FluentSQLite0B5ModelP", "willCreate"]
-- ["12FluentSQLite0B5ModelP", "willDelete"]
-- ["12FluentSQLite0B5ModelP", "willRead"]
-- ["12FluentSQLite0B5ModelP", "willRestore"]
-- ["12FluentSQLite0B5ModelP", "willSoftDelete"]
-- ["12FluentSQLite0B5ModelP", "willUpdate"]
-- ["12FluentSQLite0B5TableP", "Database"]
-- ["12FluentSQLite0B5TableP", "ID"]
-- ["12FluentSQLite0B5TableP", "IDKey"]
-- ["12FluentSQLite0B5TableP", ""]
-- ["12FluentSQLite0B5TableP", "_Default_Database"]
-- ["12FluentSQLite0B5TableP", "_Default_ID"]
-- ["12FluentSQLite0B5TableP", "anyReflectProperty"]
-- ["12FluentSQLite0B5TableP", "createdAtKey"]
-- ["12FluentSQLite0B5TableP", "decode"]
-- ["12FluentSQLite0B5TableP", "defaultContentType"]
-- ["12FluentSQLite0B5TableP", "deletedAtKey"]
-- ["12FluentSQLite0B5TableP", "didCreate"]
-- ["12FluentSQLite0B5TableP", "didDelete"]
-- ["12FluentSQLite0B5TableP", "didRestore"]
-- ["12FluentSQLite0B5TableP", "didSoftDelete"]
-- ["12FluentSQLite0B5TableP", "didUpdate"]
-- ["12FluentSQLite0B5TableP", "encode"]
-- ["12FluentSQLite0B5TableP", "entity"]
-- ["12FluentSQLite0B5TableP", "id"]
-- ["12FluentSQLite0B5TableP", "idKey"]
-- ["12FluentSQLite0B5TableP", "init"]
-- !private ["12FluentSQLite0B5TableP", "long"]
-- ["12FluentSQLite0B5TableP", "migrationName"]
-- ["12FluentSQLite0B5TableP", "migrationPrepare"]
-- ["12FluentSQLite0B5TableP", "migrationRevert"]
-- ["12FluentSQLite0B5TableP", "name"]
-- ["12FluentSQLite0B5TableP", "prepare"]
-- ["12FluentSQLite0B5TableP", "reflectProperties"]
-- ["12FluentSQLite0B5TableP", "reflectProperty"]
-- ["12FluentSQLite0B5TableP", "revert"]
-- !private ["12FluentSQLite0B5TableP", "short"]
-- ["12FluentSQLite0B5TableP", "sqlTableIdentifierString"]
-- ["12FluentSQLite0B5TableP", "updatedAtKey"]
-- ["12FluentSQLite0B5TableP", "willCreate"]
-- ["12FluentSQLite0B5TableP", "willDelete"]
-- ["12FluentSQLite0B5TableP", "willRead"]
-- ["12FluentSQLite0B5TableP", "willRestore"]
-- ["12FluentSQLite0B5TableP", "willSoftDelete"]
-- ["12FluentSQLite0B5TableP", "willUpdate"]
 - !private ["s8SequenceP", "init"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
@@ -825,47 +825,47 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["11FluentMySQL01_B8SQLModelP", "Database"]
+- ["11FluentMySQL01_B8SQLModelP", "ID"]
+- ["11FluentMySQL01_B8SQLModelP", "IDKey"]
+- ["11FluentMySQL01_B8SQLModelP", ""]
+- ["11FluentMySQL01_B8SQLModelP", "_Default_Database"]
+- ["11FluentMySQL01_B8SQLModelP", "_Default_ID"]
+- ["11FluentMySQL01_B8SQLModelP", "anyReflectProperty"]
+- ["11FluentMySQL01_B8SQLModelP", "createdAtKey"]
+- ["11FluentMySQL01_B8SQLModelP", "decode"]
+- ["11FluentMySQL01_B8SQLModelP", "defaultContentType"]
+- ["11FluentMySQL01_B8SQLModelP", "deletedAtKey"]
+- ["11FluentMySQL01_B8SQLModelP", "didCreate"]
+- ["11FluentMySQL01_B8SQLModelP", "didDelete"]
+- ["11FluentMySQL01_B8SQLModelP", "didRestore"]
+- ["11FluentMySQL01_B8SQLModelP", "didSoftDelete"]
+- ["11FluentMySQL01_B8SQLModelP", "didUpdate"]
+- ["11FluentMySQL01_B8SQLModelP", "encode"]
+- ["11FluentMySQL01_B8SQLModelP", "entity"]
+- ["11FluentMySQL01_B8SQLModelP", "id"]
+- ["11FluentMySQL01_B8SQLModelP", "idKey"]
+- ["11FluentMySQL01_B8SQLModelP", "init"]
+- !private ["11FluentMySQL01_B8SQLModelP", "long"]
+- ["11FluentMySQL01_B8SQLModelP", "migrationName"]
+- ["11FluentMySQL01_B8SQLModelP", "migrationPrepare"]
+- ["11FluentMySQL01_B8SQLModelP", "migrationRevert"]
+- ["11FluentMySQL01_B8SQLModelP", "name"]
+- ["11FluentMySQL01_B8SQLModelP", "prepare"]
+- ["11FluentMySQL01_B8SQLModelP", "reflectProperties"]
+- ["11FluentMySQL01_B8SQLModelP", "reflectProperty"]
+- ["11FluentMySQL01_B8SQLModelP", "revert"]
+- !private ["11FluentMySQL01_B8SQLModelP", "short"]
+- ["11FluentMySQL01_B8SQLModelP", "sqlTableIdentifierString"]
+- ["11FluentMySQL01_B8SQLModelP", "updatedAtKey"]
+- ["11FluentMySQL01_B8SQLModelP", "willCreate"]
+- ["11FluentMySQL01_B8SQLModelP", "willDelete"]
+- ["11FluentMySQL01_B8SQLModelP", "willRead"]
+- ["11FluentMySQL01_B8SQLModelP", "willRestore"]
+- ["11FluentMySQL01_B8SQLModelP", "willSoftDelete"]
+- ["11FluentMySQL01_B8SQLModelP", "willUpdate"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- ["12FluentSQLite01_B5ModelP", "Database"]
-- ["12FluentSQLite01_B5ModelP", "ID"]
-- ["12FluentSQLite01_B5ModelP", "IDKey"]
-- ["12FluentSQLite01_B5ModelP", ""]
-- ["12FluentSQLite01_B5ModelP", "_Default_Database"]
-- ["12FluentSQLite01_B5ModelP", "_Default_ID"]
-- ["12FluentSQLite01_B5ModelP", "anyReflectProperty"]
-- ["12FluentSQLite01_B5ModelP", "createdAtKey"]
-- ["12FluentSQLite01_B5ModelP", "decode"]
-- ["12FluentSQLite01_B5ModelP", "defaultContentType"]
-- ["12FluentSQLite01_B5ModelP", "deletedAtKey"]
-- ["12FluentSQLite01_B5ModelP", "didCreate"]
-- ["12FluentSQLite01_B5ModelP", "didDelete"]
-- ["12FluentSQLite01_B5ModelP", "didRestore"]
-- ["12FluentSQLite01_B5ModelP", "didSoftDelete"]
-- ["12FluentSQLite01_B5ModelP", "didUpdate"]
-- ["12FluentSQLite01_B5ModelP", "encode"]
-- ["12FluentSQLite01_B5ModelP", "entity"]
-- ["12FluentSQLite01_B5ModelP", "id"]
-- ["12FluentSQLite01_B5ModelP", "idKey"]
-- ["12FluentSQLite01_B5ModelP", "init"]
-- !private ["12FluentSQLite01_B5ModelP", "long"]
-- ["12FluentSQLite01_B5ModelP", "migrationName"]
-- ["12FluentSQLite01_B5ModelP", "migrationPrepare"]
-- ["12FluentSQLite01_B5ModelP", "migrationRevert"]
-- ["12FluentSQLite01_B5ModelP", "name"]
-- ["12FluentSQLite01_B5ModelP", "prepare"]
-- ["12FluentSQLite01_B5ModelP", "reflectProperties"]
-- ["12FluentSQLite01_B5ModelP", "reflectProperty"]
-- ["12FluentSQLite01_B5ModelP", "revert"]
-- !private ["12FluentSQLite01_B5ModelP", "short"]
-- ["12FluentSQLite01_B5ModelP", "sqlTableIdentifierString"]
-- ["12FluentSQLite01_B5ModelP", "updatedAtKey"]
-- ["12FluentSQLite01_B5ModelP", "willCreate"]
-- ["12FluentSQLite01_B5ModelP", "willDelete"]
-- ["12FluentSQLite01_B5ModelP", "willRead"]
-- ["12FluentSQLite01_B5ModelP", "willRestore"]
-- ["12FluentSQLite01_B5ModelP", "willSoftDelete"]
-- ["12FluentSQLite01_B5ModelP", "willUpdate"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "3App7AcronymC"
@@ -909,6 +909,10 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - "6Fluent5ModelP"
 - !private "9Multipart0A15PartConvertibleP"
+- !private "5MySQL0A18SQLDataConvertibleP"
+- !private "5MySQL0A30SQLDataTypeStaticRepresentableP"
+- "11FluentMySQL0B8SQLModelP"
+- "5MySQL0A8SQLTableP"
 - !private "7Routing9ParameterP"
 - !private "7Routing27PathComponentsRepresentableP"
 - !private "s26RangeReplaceableCollectionP"
@@ -920,10 +924,6 @@ depends-nominal:
 - "5Vapor17ResponseEncodableP"
 - !private "7Routing17RoutableComponentP"
 - "3SQL8SQLTableP"
-- !private "6SQLite0A15DataConvertibleP"
-- !private "6SQLite0A27DataTypeStaticRepresentableP"
-- "12FluentSQLite0B5ModelP"
-- "12FluentSQLite0B5TableP"
 - !private "s8SequenceP"
 - !private "SS"
 - !private "s14StringProtocolP"
@@ -938,8 +938,8 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- "11FluentMySQL01_B8SQLModelP"
 - !private "s21_ObjectiveCBridgeableP"
-- "12FluentSQLite01_B5ModelP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
@@ -947,6 +947,8 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOHTTP1.framework/Modules/NIOHTTP1.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQL.framework/Modules/SQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQL.framework/Modules/FluentSQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/MySQL.framework/Modules/MySQL.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentMySQL.framework/Modules/FluentMySQL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIOOpenSSL.framework/Modules/NIOOpenSSL.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/NIO.framework/Modules/NIO.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/HTTP.framework/Modules/HTTP.swiftmodule/x86_64.swiftmodule"
@@ -956,8 +958,6 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Service.framework/Modules/Service.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Console.framework/Modules/Console.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Core.framework/Modules/Core.swiftmodule/x86_64.swiftmodule"
-- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
-- "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/FluentSQLite.framework/Modules/FluentSQLite.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Logging.framework/Modules/Logging.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Debugging.framework/Modules/Debugging.swiftmodule/x86_64.swiftmodule"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/build/Debug/Routing.framework/Modules/Routing.swiftmodule/x86_64.swiftmodule"
@@ -1035,24 +1035,18 @@ depends-external:
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio.git-3108475404973543938/Sources/CNIOLinux/include/c_nio_linux.h"
 - "/usr/local/Cellar/libressl/2.7.4/include/openssl/x509_vfy.h"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOSHA1/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOOpenSSL/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOZlib/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/.build/checkouts/crypto.git-7980259129511365902/Sources/libbcrypt/include/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIODarwin/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOHTTPParser/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOAtomics/module.modulemap"
 - "/Users/eduard/Documents/Vapor Projects/TILApp/TILApp.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
-- "/Users/eduard/Documents/Vapor Projects/HelloVapor/HelloVapor.xcodeproj/GeneratedModuleMap/CNIOLinux/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "9094c1ed7152b3d4dc0f122fda79a849"
+interface-hash: "224455f7b2ebf2109927237f1a8fd67c"
